@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Tenant Portal/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "svg.svg-inline--fa.fa-circle.fa-w-16.fa-stack-2x.text-primary \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Tenant Portal/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Pay Rent/iframe_Total___zoid__paypal_buttons__eyJ1aW_71ceca",
+      "brokenLocator": "//iframe[@id\u003d\u0027jsx-iframe-6bd0ce610e\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Pay Rent/iframe_Total___zoid__paypal_buttons__eyJ1aW_71ceca_position.png"
+    }
+  ]
 }
