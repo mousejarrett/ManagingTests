@@ -6,12 +6,12 @@
    <elementGuidId>837de540-c522-472c-a25d-5df1d557cab3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='signin-alert']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#signin-alert</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='signin-alert']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

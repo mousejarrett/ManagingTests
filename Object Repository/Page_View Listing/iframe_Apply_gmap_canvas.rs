@@ -6,12 +6,12 @@
    <elementGuidId>75a75d88-b778-4b9e-8855-f20d9d3c47f6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//iframe[@id='gmap_canvas']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#gmap_canvas</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//iframe[@id='gmap_canvas']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
-      <value>https://maps.google.com/maps?q=7486%20Lee%20Hwy%20Radford%20Virginia&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed</value>
+      <value>https://maps.google.com/maps?q=5%20New%20River%20Dr%20Radford%20Virginia&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

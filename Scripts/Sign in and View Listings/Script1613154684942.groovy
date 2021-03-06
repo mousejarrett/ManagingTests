@@ -40,6 +40,8 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/h
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/p_A lovely apartment'), 0)
 
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/h1_House'), 0)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/h1_7486 Lee Hwy'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/a_'), 0)

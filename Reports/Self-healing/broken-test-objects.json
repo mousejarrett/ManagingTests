@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Pay Rent/iframe_Total___zoid__paypal_buttons__eyJ1aW_71ceca_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Search/div_Search_portfolio-hover",
+      "brokenLocator": "//div[@id\u003d\u0027listings-area\u0027]/div/div/a/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Search\u0027])[2]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Search/div_Search_portfolio-hover_neighbor.png"
     }
   ]
 }
