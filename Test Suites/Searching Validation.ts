@@ -35,4 +35,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/View listing Main page</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8cbaae67-ae8c-45ba-b30e-72e7985eeac5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Searching with filter</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

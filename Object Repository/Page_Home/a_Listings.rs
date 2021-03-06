@@ -84,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign-In'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Portal'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,6 +112,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Portal'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign-In'])[1]/preceding::a[2]</value>
    </webElementXpaths>
 </WebElementEntity>
