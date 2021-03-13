@@ -35,4 +35,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tenant/Tenant View Announcements</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>180dcb37-bd9a-4131-aa97-af02ba04bf70</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Tenant/Request Maintenance</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>81c3f96f-f086-4e2e-af93-3e4bd9f177de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Tenant/Payment History</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

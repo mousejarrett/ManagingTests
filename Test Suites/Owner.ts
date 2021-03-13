@@ -35,4 +35,34 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Owner/Delete Announcement</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>235135cf-302b-42b0-9030-7240f1580c27</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/Add listing</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fea27009-ad25-4dba-98ef-7bb43b1b5889</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/Testing Delete (but not removing)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4b7f05eb-1821-47c1-a973-4e600b210e34</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/View Announcements</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>010a5a40-64ed-4df6-aff0-fc6f8fb80f12</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/Activate listing</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2b204cdb-0d5f-42c0-8519-95220a27ced1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/Update Listing</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

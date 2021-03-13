@@ -6,12 +6,12 @@
    <elementGuidId>8833f19d-ea95-456d-8b29-0392b007cb8a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='form-container']/div/div/a/h4</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>h4.my-3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='form-container']/div/div/a/h4</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

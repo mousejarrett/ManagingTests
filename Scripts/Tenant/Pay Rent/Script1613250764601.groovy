@@ -23,11 +23,11 @@ WebUI.navigateToUrl('https://managing-made-easier.web.app/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Sign-In'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 'test321@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 'test123@radford.edu')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
 WebUI.click(findTestObject('Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683'))
 
@@ -35,13 +35,15 @@ WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
 WebUI.click(findTestObject('Object Repository/Page_Tenant Portal/h4_Pay Rent'))
 
-WebUI.click(findTestObject('Object Repository/Page_Pay Rent/p_Rent 600.00'))
+WebUI.click(findTestObject('Object Repository/Page_Pay Rent/b_Rent'))
 
-WebUI.click(findTestObject('Object Repository/Page_Pay Rent/p_Online Fees 17.70'))
+WebUI.click(findTestObject('Object Repository/Page_Pay Rent/b_Online Fees'))
 
-WebUI.click(findTestObject('Object Repository/Page_Pay Rent/p_Total 617.70'))
+WebUI.click(findTestObject('Object Repository/Page_Pay Rent/b_Total'))
 
 WebUI.switchToWindowTitle('Pay Rent')
+
+WebUI.click(findTestObject('Object Repository/Page_Pay Rent/div_paypal-button-label-container (4)'))
 
 WebUI.closeBrowser()
 
