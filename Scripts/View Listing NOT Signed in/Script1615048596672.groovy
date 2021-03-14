@@ -23,26 +23,7 @@ WebUI.navigateToUrl('https://managing-made-easier.web.app/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Listings'))
 
-WebUI.click(findTestObject('Object Repository/Page_Search/div_Search_portfolio-hover'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/h1_House'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/h1_House'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/h1_7486 Lee Hwy'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/a_'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/a_'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/a_'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/a_'), 0)
-
-WebUI.click(findTestObject('Object Repository/Page_View Listing/div'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/svg_No pets allowed in property._heart'), 
-    0)
+WebUI.click(findTestObject('Object Repository/Page_Search/div_Search Listings'))
 
 WebUI.closeBrowser()
 

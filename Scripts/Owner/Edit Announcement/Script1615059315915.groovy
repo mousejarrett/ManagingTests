@@ -35,16 +35,14 @@ WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
 WebUI.click(findTestObject('Object Repository/Page_Owner Portal/h4_Update an Announcement'))
 
-WebUI.click(findTestObject('Object Repository/Page_Update Announcements/button_hello'))
+WebUI.click(findTestObject('Page_Update Announcements/topAnnouncement'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Update Announcement/textarea_Update an Announcement_announcement'), 
     'test, this is an updating Katalon test')
 
 WebUI.click(findTestObject('Object Repository/Page_Update Announcement/button_Update Announcement'))
 
-WebUI.click(findTestObject('Object Repository/Page_Announcements/button_hello'))
-
-WebUI.click(findTestObject('Object Repository/Page_Announcements/div_test, this is an updating Katalon test'))
+WebUI.click(findTestObject('Page_Announcements/button_Katalon Test'))
 
 WebUI.closeBrowser()
 

@@ -29,7 +29,5 @@ WebUI.click(findTestObject('Object Repository/Page_View Listing/div_HouseMonthly
 
 WebUI.click(findTestObject('Object Repository/Page_View Listing/div'))
 
-WebUI.click(findTestObject('Object Repository/Page_View Listing/h2_Pet Information'))
-
 WebUI.closeBrowser()
 

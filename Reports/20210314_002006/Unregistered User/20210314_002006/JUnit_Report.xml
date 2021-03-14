@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Unregistered User" time="34.602" tests="3" failures="1" skips="0" errors="0">
+   <testsuite name="Unregistered User" tests="3" failures="1" errors="0" time="34.602" skips="0" timestamp="2021-03-14 00:20:08" hostname="mousejarrett - 192.168.1.16" id="Test Suites/Unregistered User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mousejarrett/Desktop/SE/Managing/ManagingTests/Reports/20210314_002006/Unregistered User/20210314_002006"/>
+         <property name="logFiles" value="/Users/mousejarrett/Desktop/SE/Managing/ManagingTests/Reports/20210314_002006/Unregistered User/20210314_002006/execution0.log"/>
+         <property name="attachments" value="/Users/mousejarrett/Desktop/SE/Managing/ManagingTests/Reports/20210314_002006/Unregistered User/20210314_002006/1615699242045.png"/>
+         <property name="hostName" value="mousejarrett - 192.168.1.16"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.82"/>
+         <property name="hostAddress" value="192.168.1.16"/>
+         <property name="sessionId" value="0c88243efb588351dac65f0485083453"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Unregistered user CANNOT sign in" time="14.311" classname="Test Cases/Unregistered user CANNOT sign in" status="PASSED">
+         <system-out><![CDATA[2021-03-14 00:20:08 - [TEST_CASE][PASSED] - Test Cases/Unregistered user CANNOT sign in: Test Cases/Unregistered user CANNOT sign in
+
+2021-03-14 00:20:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-14 00:20:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-14 00:20:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-14 00:20:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-14 00:20:11 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-03-14 00:20:16 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-03-14 00:20:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-03-14 00:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-03-14 00:20:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "test"): Text 'test' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-03-14 00:20:18 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-03-14 00:20:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "P9ET2sDE0SE="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-03-14 00:20:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-03-14 00:20:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-03-14 00:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-03-14 00:20:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Sign-In/div_The email address is badly formatted"), 0): Object 'Object Repository/Page_Sign-In/div_The email address is badly formatted' is present
+
+2021-03-14 00:20:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-14 00:20:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign-In/div_The email address is badly formatted' is present
+
+2021-03-14 00:20:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "YsxTccsmuDoDBwXzvpNmKQ=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-03-14 00:20:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-03-14 00:20:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-03-14 00:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-03-14 00:20:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-03-14 00:20:22 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-03-14 00:20:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-03-14 00:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-03-14 00:20:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f"), 0): Object 'Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f' is present
+
+2021-03-14 00:20:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-14 00:20:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f' is present
+
+2021-03-14 00:20:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-14 00:20:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View Listing NOT Signed in" time="6.108" classname="Test Cases/View Listing NOT Signed in" status="PASSED">
+         <system-out><![CDATA[2021-03-14 00:20:23 - [TEST_CASE][PASSED] - Test Cases/View Listing NOT Signed in: Test Cases/View Listing NOT Signed in
+
+2021-03-14 00:20:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-14 00:20:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-14 00:20:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-14 00:20:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-14 00:20:24 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-03-14 00:20:27 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-03-14 00:20:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Listings")): Object: 'Object Repository/Page_Home/a_Listings' is clicked on
+
+2021-03-14 00:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Listings' is clicked on
+
+2021-03-14 00:20:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search/div_Search Listings")): Object: 'Object Repository/Page_Search/div_Search Listings' is clicked on
+
+2021-03-14 00:20:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search/div_Search Listings' is clicked on
+
+2021-03-14 00:20:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-03-14 00:20:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View listing Main page" time="13.247" classname="Test Cases/View listing Main page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/View listing Main page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_View Listing/h2_Pet Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View listing Main page.run(View listing Main page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615699206281.run(TempTestSuite1615699206281.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;h2>...&lt;/h2> is not clickable at point (305, 107). Other element would receive the click: &lt;nav class=&quot;navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink&quot; id=&quot;mainNav&quot;>...&lt;/nav>
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mouses-MacBook-Pro.local', ip: 'fe80:0:0:0:48c:bfe6:3f6c:970a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/bl/1zcpx9k97n5...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c88243efb588351dac65f0485083453
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-14 00:20:29 - [TEST_CASE][FAILED] - Test Cases/View listing Main page: Test Cases/View listing Main page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_View Listing/h2_Pet Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View listing Main page.run(View listing Main page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615699206281.run(TempTestSuite1615699206281.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h2>...</h2> is not clickable at point (305, 107). Other element would receive the click: <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">...</nav>
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mouses-MacBook-Pro.local', ip: 'fe80:0:0:0:48c:bfe6:3f6c:970a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/bl/1zcpx9k97n5...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c88243efb588351dac65f0485083453
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-14 00:20:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-14 00:20:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-14 00:20:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-14 00:20:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-14 00:20:30 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-03-14 00:20:33 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-03-14 00:20:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/div_5 New River Dr915")): Object: 'Object Repository/Page_Home/div_5 New River Dr915' is clicked on
+
+2021-03-14 00:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/div_5 New River Dr915' is clicked on
+
+2021-03-14 00:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9")): Object: 'Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9' is clicked on
+
+2021-03-14 00:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9' is clicked on
+
+2021-03-14 00:20:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2")): Object: 'Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2' is clicked on
+
+2021-03-14 00:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2' is clicked on
+
+2021-03-14 00:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_View Listing/div")): Object: 'Object Repository/Page_View Listing/div' is clicked on
+
+2021-03-14 00:20:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_View Listing/div' is clicked on
+
+2021-03-14 00:20:40 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_View Listing/h2_Pet Information")): Unable to click on object 'Object Repository/Page_View Listing/h2_Pet Information' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_View Listing/h2_Pet Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View listing Main page.run(View listing Main page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615699206281.run(TempTestSuite1615699206281.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h2>...</h2> is not clickable at point (305, 107). Other element would receive the click: <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">...</nav>
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mouses-MacBook-Pro.local', ip: 'fe80:0:0:0:48c:bfe6:3f6c:970a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/bl/1zcpx9k97n5...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c88243efb588351dac65f0485083453
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1615047873790.run(Script1615047873790.groovy:32)
+	... 13 more
+)
+
+2021-03-14 00:20:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_View Listing/h2_Pet Information' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_View Listing/h2_Pet Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View listing Main page.run(View listing Main page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615699206281.run(TempTestSuite1615699206281.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h2>...</h2> is not clickable at point (305, 107). Other element would receive the click: <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">...</nav>
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mouses-MacBook-Pro.local', ip: 'fe80:0:0:0:48c:bfe6:3f6c:970a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/bl/1zcpx9k97n5...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c88243efb588351dac65f0485083453
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1615047873790.run(Script1615047873790.groovy:32)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mousejarrett/Desktop/SE/Managing/ManagingTests/Reports/20210314_002006/Unregistered User/20210314_002006/1615699242045.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-14 00:20:29 - [TEST_CASE][FAILED] - Test Cases/View listing Main page: Test Cases/View listing Main page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_View Listing/h2_Pet Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View listing Main page.run(View listing Main page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615699206281.run(TempTestSuite1615699206281.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h2>...</h2> is not clickable at point (305, 107). Other element would receive the click: <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">...</nav>
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mouses-MacBook-Pro.local', ip: 'fe80:0:0:0:48c:bfe6:3f6c:970a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/bl/1zcpx9k97n5...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c88243efb588351dac65f0485083453
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-14 00:20:08 - [TEST_SUITE][FAILED] - Unregistered User: Test Cases/View listing Main page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_View Listing/h2_Pet Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View listing Main page.run(View listing Main page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615699206281.run(TempTestSuite1615699206281.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h2>...</h2> is not clickable at point (305, 107). Other element would receive the click: <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">...</nav>
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mouses-MacBook-Pro.local', ip: 'fe80:0:0:0:48c:bfe6:3f6c:970a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/bl/1zcpx9k97n5...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c88243efb588351dac65f0485083453
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-03-14 00:20:08 - [TEST_SUITE][FAILED] - Unregistered User: Test Cases/View listing Main page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_View Listing/h2_Pet Information'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View listing Main page.run(View listing Main page:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615699206281.run(TempTestSuite1615699206281.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <h2>...</h2> is not clickable at point (305, 107). Other element would receive the click: <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">...</nav>
+  (Session info: chrome=89.0.4389.82)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Mouses-MacBook-Pro.local', ip: 'fe80:0:0:0:48c:bfe6:3f6c:970a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '1.8.0_275'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /var/folders/bl/1zcpx9k97n5...}, goog:chromeOptions: {debuggerAddress: localhost:57716}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c88243efb588351dac65f0485083453
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

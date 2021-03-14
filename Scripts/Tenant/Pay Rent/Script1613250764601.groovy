@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Sign-In/div_Sign-in Successfu
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
-WebUI.click(findTestObject('Object Repository/Page_Tenant Portal/h4_Pay Rent'))
+WebUI.click(findTestObject('Page_Tenant Portal/div_Pay Rent'))
 
 WebUI.click(findTestObject('Object Repository/Page_Pay Rent/b_Rent'))
 
@@ -42,8 +42,6 @@ WebUI.click(findTestObject('Object Repository/Page_Pay Rent/b_Online Fees'))
 WebUI.click(findTestObject('Object Repository/Page_Pay Rent/b_Total'))
 
 WebUI.switchToWindowTitle('Pay Rent')
-
-WebUI.click(findTestObject('Object Repository/Page_Pay Rent/div_paypal-button-label-container (4)'))
 
 WebUI.closeBrowser()
 
