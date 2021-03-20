@@ -65,4 +65,40 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Owner/Update Listing</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>06dc00b6-832b-40ee-9d2f-787d48fe47a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/View Walkthrough Calendar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>01b64959-14a4-435f-94dd-46d9a6a388c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/Maintenance Requests</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bed0b847-9e17-4c96-98df-93aa8a87198a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/Mark Rent as Paid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e9ec44b1-7519-4086-889c-af5d45fc990f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/Rent log</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2ff82bb5-1dda-47e9-bc5c-c1866bbb6a4c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/Add Fees</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>15c2c6a8-77c3-45ad-b409-423a205c7a67</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Owner/View Fees</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

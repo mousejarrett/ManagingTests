@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Unregistered User,Chrome 89.0.4389.82,,,2021-03-15 18:57:05,2021-03-15 18:58:07,1m - 2.536s,FAILED
+,,,,,,,
+Test Cases/Unregistered user CANNOT sign in,Chrome 89.0.4389.82,,,2021-03-15 18:57:06,2021-03-15 18:57:39,33.170s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-15 18:57:06,2021-03-15 18:57:09,2.469s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.82,,,2021-03-15 18:57:09,2021-03-15 18:57:20,11.090s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Sign-In""))",Chrome 89.0.4389.82,,,2021-03-15 18:57:20,2021-03-15 18:57:21,1.731s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test"")",Chrome 89.0.4389.82,,,2021-03-15 18:57:21,2021-03-15 18:57:25,3.866s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""P9ET2sDE0SE="")",Chrome 89.0.4389.82,,,2021-03-15 18:57:25,2021-03-15 18:57:27,2.015s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.82,,,2021-03-15 18:57:27,2021-03-15 18:57:29,1.967s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_The email address is badly formatted""), 0)",Chrome 89.0.4389.82,,,2021-03-15 18:57:29,2021-03-15 18:57:31,1.917s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""YsxTccsmuDoDBwXzvpNmKQ=="")",Chrome 89.0.4389.82,,,2021-03-15 18:57:31,2021-03-15 18:57:33,2.071s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.82,,,2021-03-15 18:57:33,2021-03-15 18:57:35,1.942s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test@gmail.com"")",Chrome 89.0.4389.82,,,2021-03-15 18:57:35,2021-03-15 18:57:38,2.546s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.82,,,2021-03-15 18:57:38,2021-03-15 18:57:38,0.301s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f""), 0)",Chrome 89.0.4389.82,,,2021-03-15 18:57:38,2021-03-15 18:57:39,0.695s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-15 18:57:39,2021-03-15 18:57:39,0.125s,PASSED
+,,,,,,,
+Test Cases/View Listing NOT Signed in,Chrome 89.0.4389.82,,,2021-03-15 18:57:39,2021-03-15 18:57:51,11.682s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-15 18:57:39,2021-03-15 18:57:40,1.234s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.82,,,2021-03-15 18:57:40,2021-03-15 18:57:47,6.361s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Listings""))",Chrome 89.0.4389.82,,,2021-03-15 18:57:47,2021-03-15 18:57:48,1.611s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/div_Search Listings""))",Chrome 89.0.4389.82,,,2021-03-15 18:57:48,2021-03-15 18:57:50,2.070s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-15 18:57:50,2021-03-15 18:57:51,0.122s,PASSED
+,,,,,,,
+Test Cases/View listing Main page,Chrome 89.0.4389.82,,,2021-03-15 18:57:51,2021-03-15 18:58:07,16.964s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-15 18:57:51,2021-03-15 18:57:52,1.430s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.82,,,2021-03-15 18:57:52,2021-03-15 18:57:58,6.177s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/div_5 New River Dr915""))",Chrome 89.0.4389.82,,,2021-03-15 18:57:58,2021-03-15 18:58:07,8.987s,FAILED

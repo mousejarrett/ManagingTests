@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Unregistered User,Chrome 89.0.4389.82,,,2021-03-17 18:45:06,2021-03-17 18:45:40,33.299s,PASSED
+,,,,,,,
+Test Cases/Unregistered user CANNOT sign in,Chrome 89.0.4389.82,,,2021-03-17 18:45:07,2021-03-17 18:45:22,14.929s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-17 18:45:07,2021-03-17 18:45:10,2.235s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.82,,,2021-03-17 18:45:10,2021-03-17 18:45:16,6.579s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Sign-In""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:16,2021-03-17 18:45:17,0.894s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test"")",Chrome 89.0.4389.82,,,2021-03-17 18:45:17,2021-03-17 18:45:18,0.869s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""P9ET2sDE0SE="")",Chrome 89.0.4389.82,,,2021-03-17 18:45:18,2021-03-17 18:45:18,0.362s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:18,2021-03-17 18:45:19,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_The email address is badly formatted""), 0)",Chrome 89.0.4389.82,,,2021-03-17 18:45:19,2021-03-17 18:45:19,0.497s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""YsxTccsmuDoDBwXzvpNmKQ=="")",Chrome 89.0.4389.82,,,2021-03-17 18:45:19,2021-03-17 18:45:19,0.328s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:19,2021-03-17 18:45:20,0.401s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test@gmail.com"")",Chrome 89.0.4389.82,,,2021-03-17 18:45:20,2021-03-17 18:45:21,1.016s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:21,2021-03-17 18:45:21,0.303s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f""), 0)",Chrome 89.0.4389.82,,,2021-03-17 18:45:21,2021-03-17 18:45:22,0.686s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-17 18:45:22,2021-03-17 18:45:22,0.110s,PASSED
+,,,,,,,
+Test Cases/View Listing NOT Signed in,Chrome 89.0.4389.82,,,2021-03-17 18:45:22,2021-03-17 18:45:30,7.993s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-17 18:45:22,2021-03-17 18:45:23,1.122s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.82,,,2021-03-17 18:45:23,2021-03-17 18:45:28,5.038s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Listings""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:28,2021-03-17 18:45:29,0.967s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/div_Search Listings""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:29,2021-03-17 18:45:30,0.552s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-17 18:45:30,2021-03-17 18:45:30,0.113s,PASSED
+,,,,,,,
+Test Cases/View listing Main page,Chrome 89.0.4389.82,,,2021-03-17 18:45:30,2021-03-17 18:45:40,9.681s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.82,,,2021-03-17 18:45:30,2021-03-17 18:45:31,1.010s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.82,,,2021-03-17 18:45:31,2021-03-17 18:45:36,4.730s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/div_5 New River Dr915""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:36,2021-03-17 18:45:38,2.264s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:38,2021-03-17 18:45:39,0.581s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:39,2021-03-17 18:45:39,0.392s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div""))",Chrome 89.0.4389.82,,,2021-03-17 18:45:39,2021-03-17 18:45:40,0.407s,PASSED
+closeBrowser(),Chrome 89.0.4389.82,,,2021-03-17 18:45:40,2021-03-17 18:45:40,0.108s,PASSED

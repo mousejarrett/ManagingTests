@@ -47,4 +47,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tenant/Payment History</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7af35e0d-8a6d-4d9e-9180-be25f18e36e0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Tenant/View Payment History</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>93fd1c2e-fe4f-4f19-841c-fa282047313a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Tenant/View Fees</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
