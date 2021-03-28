@@ -59,4 +59,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tenant/View Fees</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>c048ce67-ea21-4185-8904-d6f8a5c6c1ba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Tenant/Change Password</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
