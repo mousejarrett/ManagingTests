@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_ActivateDeactivate a Listing</name>
+   <name>div_Select a Listing to ActivateDeactivate__a64143</name>
    <tag></tag>
-   <elementGuidId>91631afc-c18f-4bf5-8591-e59599e3f85c</elementGuidId>
+   <elementGuidId>93fb7634-f8f4-44a5-ac07-48a4dae93a57</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.portfolio-hover</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='form-container']/div/div[5]/a/h4</value>
+         <value>//div[@id='listings-area']/div/div/a/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,62 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>my-3</value>
+      <value>portfolio-hover</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Activate/Deactivate a Listing</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;form-container&quot;)/div[@class=&quot;row text-center&quot;]/div[@class=&quot;col-md-4&quot;]/a[1]/h4[@class=&quot;my-3&quot;]</value>
+      <value>id(&quot;listings-area&quot;)/div[@class=&quot;col-lg-4 col-sm-6 mb-4&quot;]/div[@class=&quot;portfolio-item&quot;]/a[@class=&quot;portfolio-link&quot;]/div[@class=&quot;portfolio-hover&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='form-container']/div/div[5]/a/h4</value>
+      <value>//div[@id='listings-area']/div/div/a/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete a Listing'])[1]/following::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Listing to Activate/Deactivate'])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Update a Listing'])[1]/following::h4[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign-Out'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add an Announcement'])[1]/preceding::h4[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Box'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Announcements'])[1]/preceding::h4[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Activate/Deactivate a Listing']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Katalon Test Deactivate'])[1]/preceding::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[5]/a/h4</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='form-container']/div/div[4]/a/h4</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/a/h4</value>
+      <value>//a/div</value>
    </webElementXpaths>
 </WebElementEntity>

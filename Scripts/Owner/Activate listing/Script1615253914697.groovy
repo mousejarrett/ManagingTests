@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683'))
 
@@ -35,17 +35,11 @@ WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
 WebUI.click(findTestObject('Object Repository/Page_Owner Portal/h4_ActivateDeactivate a Listing'))
 
-WebUI.click(findTestObject('Object Repository/Page_ActivateDeactivate Listings/div_Box'))
+WebUI.click(findTestObject('Object Repository/Page_ActivateDeactivate Listings/div_Select a Listing to ActivateDeactivate__a64143'))
 
-WebUI.click(findTestObject('Object Repository/Page_ActivateDeactivate Listing/input_Activated_status'))
+WebUI.click(findTestObject('Object Repository/Page_ActivateDeactivate Listing/label_Deactivated'))
 
-WebUI.click(findTestObject('Object Repository/Page_ActivateDeactivate Listing/input_ActivateDeactivate Box_status'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_ActivateDeactivate Listing/select_nstoryradford.edujbradley46radford.e_73375e'), 
-    'nstory@radford.edu', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_ActivateDeactivate Listing/select_nstoryradford.edujbradley46radford.e_73375e'), 
-    '', true)
+WebUI.click(findTestObject('Object Repository/Page_ActivateDeactivate Listing/label_Activated'))
 
 WebUI.closeBrowser()
 
