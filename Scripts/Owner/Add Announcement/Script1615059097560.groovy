@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Object Repository/Page_Sign-In/div_Sign-in Successfu
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
-WebUI.click(findTestObject('Object Repository/Page_Owner Portal/h4_Add an Announcement'))
+WebUI.click(findTestObject('Page_Owner Portal/h4_Add an Announcement'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Add Announcement/input_Add an Announcement_title'), 'Katalon Test')
 
