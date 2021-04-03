@@ -41,9 +41,5 @@ WebUI.click(findTestObject('Object Repository/Page_Payment History/div_nstoryrad
 
 WebUI.click(findTestObject('Object Repository/Page_Payment History/button_Thu Mar 18 2021'))
 
-WebUI.click(findTestObject('Object Repository/Page_Payment History/b_Method'))
-
-WebUI.click(findTestObject('Object Repository/Page_Payment History/div_Method OnlineRent 500.00Additional Fees_6a8882'))
-
 WebUI.closeBrowser()
 

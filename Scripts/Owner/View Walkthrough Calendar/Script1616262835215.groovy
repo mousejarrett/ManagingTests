@@ -27,13 +27,15 @@ WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), Keys.chord(Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
 WebUI.click(findTestObject('Object Repository/Page_Owner Portal/h4_View Walkthrough Calendar'))
 
 WebUI.click(findTestObject('Object Repository/Page_Calendar/h1_Calendar'))
+
+WebUI.click(findTestObject('Object Repository/Page_Calendar/td_'))
 
 WebUI.closeBrowser()
 
