@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.setText(findTestObject('Object Repository/Page_Search/input_Apartment_search-txtbox'), 'Kata')
-
 WebUI.navigateToUrl('https://managing-made-easier.web.app/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Sign-In'))
@@ -50,6 +48,8 @@ WebUI.click(findTestObject('Object Repository/Page_Search/button_Search'))
 WebUI.click(findTestObject('Object Repository/Page_Search/input_House_type2'))
 
 WebUI.click(findTestObject('Object Repository/Page_Search/button_Search'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Search/input_Apartment_search-txtbox'), 'Kata')
 
 WebUI.click(findTestObject('Object Repository/Page_Search/button_Search'))
 
