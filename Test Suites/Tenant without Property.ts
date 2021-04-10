@@ -29,4 +29,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tenant/Tenant View Announcements</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fd33b574-2ba9-4e02-a0f5-991a49d2e049</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Tenant/Schedule Walkthrough</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

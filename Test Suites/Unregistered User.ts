@@ -29,4 +29,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/View listing Main page</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0f8ae30e-d53f-41fa-98d7-6feb20582874</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Access Facebook</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e27e2ad9-e208-4cfe-a72b-bb8c63cb5182</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Realtor Button</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a9d598b3-e133-434a-8432-1a9d031d8312</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Equal Housing Button</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
