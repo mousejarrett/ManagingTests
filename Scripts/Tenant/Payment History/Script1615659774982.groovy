@@ -27,13 +27,17 @@ WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
 WebUI.click(findTestObject('Object Repository/Page_Tenant Portal/h4_View Payment History'))
 
-WebUI.click(findTestObject('Object Repository/Page_Payment History/p_There is no payment history'))
+WebUI.click(findTestObject('Object Repository/Page_Payment History/h1_Payment History'))
+
+WebUI.click(findTestObject('Object Repository/Page_Payment History/div_Thu Apr 08 2021Method Manually EnteredT_81d260'))
+
+WebUI.click(findTestObject('Object Repository/Page_Payment History/button_Thu Apr 08 2021'))
 
 WebUI.closeBrowser()
 

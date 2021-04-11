@@ -23,17 +23,15 @@ WebUI.navigateToUrl('https://managing-made-easier.web.app/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Sign-In'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 'test123@radford.edu')
+WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 'test321@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), '8SQVv/p9jVScEs4/2CZsLw==')
 
 WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683'))
-
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
-WebUI.click(findTestObject('Page_Tenant Portal/div_Pay Rent'))
+WebUI.click(findTestObject('Page_Tenant Portal/h4_Pay Rent'))
 
 WebUI.click(findTestObject('Object Repository/Page_Pay Rent/b_Rent'))
 

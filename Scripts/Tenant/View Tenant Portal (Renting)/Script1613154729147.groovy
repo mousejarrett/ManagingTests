@@ -31,13 +31,13 @@ WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tenant Portal/div_Pay Rent'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Tenant Portal/h4_Pay Rent'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tenant Portal/div_Announcements'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Tenant Portal/h4_Announcements'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tenant Portal/div_Maintenance Request'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Tenant Portal/h4_Request Maintenance'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Tenant Portal/div_Renew Lease'), 0)
+WebUI.verifyElementPresent(findTestObject('Page_Tenant Portal/h4_View Payment History'), 0)
 
 WebUI.closeBrowser()
 

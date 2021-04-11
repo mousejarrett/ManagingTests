@@ -41,7 +41,5 @@ WebUI.setText(findTestObject('Object Repository/Page_Request Maintenance/textare
 
 WebUI.click(findTestObject('Object Repository/Page_Request Maintenance/button_Submit'))
 
-WebUI.acceptAlert()
-
 WebUI.closeBrowser()
 

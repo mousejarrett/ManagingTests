@@ -30,10 +30,10 @@
       <testCaseId>Test Cases/Tenant/Pay Rent</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c8240fbd-8438-4055-9fd3-c095a5b3a724</guid>
+      <guid>c048ce67-ea21-4185-8904-d6f8a5c6c1ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tenant/Tenant View Announcements</testCaseId>
+      <testCaseId>Test Cases/Tenant/Change Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>180dcb37-bd9a-4131-aa97-af02ba04bf70</guid>
@@ -60,9 +60,9 @@
       <testCaseId>Test Cases/Tenant/View Fees</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c048ce67-ea21-4185-8904-d6f8a5c6c1ba</guid>
+      <guid>c8240fbd-8438-4055-9fd3-c095a5b3a724</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tenant/Change Password</testCaseId>
+      <testCaseId>Test Cases/Tenant/Tenant View Announcements</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
