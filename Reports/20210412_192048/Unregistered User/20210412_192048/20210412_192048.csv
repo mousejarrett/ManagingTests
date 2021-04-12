@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Unregistered User,Chrome 89.0.4389.114,,,2021-04-12 19:20:50,2021-04-12 19:22:09,1m - 19.484s,FAILED
+,,,,,,,
+Test Cases/Unregistered user CANNOT sign in,Chrome 89.0.4389.114,,,2021-04-12 19:20:50,2021-04-12 19:21:03,12.445s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-12 19:20:51,2021-04-12 19:20:53,2.085s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-12 19:20:53,2021-04-12 19:20:56,3.185s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-12 19:20:56,2021-04-12 19:20:58,1.609s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test"")",Chrome 89.0.4389.114,,,2021-04-12 19:20:58,2021-04-12 19:20:58,0.958s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""P9ET2sDE0SE="")",Chrome 89.0.4389.114,,,2021-04-12 19:20:58,2021-04-12 19:20:59,0.548s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-12 19:20:59,2021-04-12 19:20:59,0.426s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_The email address is badly formatted""), 0)",Chrome 89.0.4389.114,,,2021-04-12 19:20:59,2021-04-12 19:21:00,0.488s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""YsxTccsmuDoDBwXzvpNmKQ=="")",Chrome 89.0.4389.114,,,2021-04-12 19:21:00,2021-04-12 19:21:00,0.343s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:00,2021-04-12 19:21:01,0.399s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test@gmail.com"")",Chrome 89.0.4389.114,,,2021-04-12 19:21:01,2021-04-12 19:21:01,0.786s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:01,2021-04-12 19:21:02,0.511s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f""), 0)",Chrome 89.0.4389.114,,,2021-04-12 19:21:02,2021-04-12 19:21:03,0.684s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-12 19:21:03,2021-04-12 19:21:03,0.115s,PASSED
+,,,,,,,
+Test Cases/View Listing NOT Signed in,Chrome 89.0.4389.114,,,2021-04-12 19:21:03,2021-04-12 19:21:10,7.570s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-12 19:21:03,2021-04-12 19:21:04,1.118s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-12 19:21:04,2021-04-12 19:21:08,4.068s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Listings""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:08,2021-04-12 19:21:09,1.013s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/div_Search Listings""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:09,2021-04-12 19:21:10,1.027s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-12 19:21:10,2021-04-12 19:21:10,0.113s,PASSED
+,,,,,,,
+Test Cases/View listing Main page,Chrome 89.0.4389.114,,,2021-04-12 19:21:10,2021-04-12 19:21:17,6.981s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-12 19:21:11,2021-04-12 19:21:12,0.929s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-12 19:21:12,2021-04-12 19:21:13,1.339s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/div_5 New River Dr915""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:13,2021-04-12 19:21:16,3.082s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:16,2021-04-12 19:21:17,0.578s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:17,2021-04-12 19:21:17,0.311s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:17,2021-04-12 19:21:17,0.420s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-12 19:21:17,2021-04-12 19:21:17,0.116s,PASSED
+,,,,,,,
+Test Cases/Access Facebook,Chrome 89.0.4389.114,,,2021-04-12 19:21:17,2021-04-12 19:21:53,35.857s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-12 19:21:18,2021-04-12 19:21:19,0.957s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-12 19:21:19,2021-04-12 19:21:20,1.484s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/div_Welcome To Jarrett Properties""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:20,2021-04-12 19:21:21,0.722s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/path""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:21,2021-04-12 19:21:53,32.475s,FAILED
+,,,,,,,
+Test Cases/Realtor Button,Chrome 89.0.4389.114,,,2021-04-12 19:21:53,2021-04-12 19:22:01,7.749s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-12 19:21:53,2021-04-12 19:21:54,1.080s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-12 19:21:54,2021-04-12 19:21:56,1.542s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/h1_Welcome To Jarrett Properties""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:56,2021-04-12 19:21:57,0.906s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/img""))",Chrome 89.0.4389.114,,,2021-04-12 19:21:57,2021-04-12 19:22:01,3.941s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-12 19:22:01,2021-04-12 19:22:01,0.124s,PASSED
+,,,,,,,
+Test Cases/Equal Housing Button,Chrome 89.0.4389.114,,,2021-04-12 19:22:01,2021-04-12 19:22:09,8.337s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-12 19:22:01,2021-04-12 19:22:02,0.905s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-12 19:22:02,2021-04-12 19:22:04,1.984s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/h1_Welcome To Jarrett Properties""))",Chrome 89.0.4389.114,,,2021-04-12 19:22:04,2021-04-12 19:22:05,1.131s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/img""))",Chrome 89.0.4389.114,,,2021-04-12 19:22:05,2021-04-12 19:22:09,3.970s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-12 19:22:09,2021-04-12 19:22:09,0.134s,PASSED

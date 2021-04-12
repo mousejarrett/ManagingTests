@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//*[@id=&quot;page-top&quot;]/footer/div/div/div[2]/a[1]</value>
       </entry>
       <entry>
          <key>CSS</key>

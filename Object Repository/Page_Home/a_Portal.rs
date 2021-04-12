@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>TenantPortal.html</value>
+      <value>OwnerPortal.html</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'TenantPortal.html')]</value>
+      <value>//a[contains(@href, 'OwnerPortal.html')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,15 +117,15 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome To Jarrett Properties!'])[1]/preceding::a[2]</value>
+      <value>//a[contains(@href, 'TenantPortal.html')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, 'OwnerPortal.html')]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome To Jarrett Properties!'])[1]/preceding::a[2]</value>
    </webElementXpaths>
 </WebElementEntity>

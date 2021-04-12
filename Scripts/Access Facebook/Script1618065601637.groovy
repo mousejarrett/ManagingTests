@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://managing-made-easier.web.app/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home/div_Welcome To Jarrett Properties'))
 
-WebUI.click(findTestObject('Object Repository/Page_Home/path'))
+WebUI.click(findTestObject('Page_Home/path'))
 
 WebUI.closeBrowser()
 
