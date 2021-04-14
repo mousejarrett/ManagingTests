@@ -31,6 +31,8 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_Sign-In/input__txtPassword
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
+WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
+
 WebUI.click(findTestObject('Object Repository/Page_Tenant Portal/h4_View Payment History'))
 
 WebUI.click(findTestObject('Object Repository/Page_Payment History/h1_Payment History'))

@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
+WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
+
 WebUI.click(findTestObject('Page_Tenant Portal/div_Announcements'))
 
 WebUI.click(findTestObject('Object Repository/Page_Announcements/button_3'))

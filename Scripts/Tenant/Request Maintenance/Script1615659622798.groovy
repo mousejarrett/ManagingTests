@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
+WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
+
 WebUI.click(findTestObject('Object Repository/Page_Tenant Portal/h4_Request Maintenance'))
 
 WebUI.click(findTestObject('Object Repository/Page_Request Maintenance/input_Request Maintenance_isEmergency'))
