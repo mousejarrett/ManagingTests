@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Searching Validation,Chrome 89.0.4389.114,,,2021-04-13 20:06:28,2021-04-13 20:07:48,1m - 19.759s,PASSED
+,,,,,,,
+Test Cases/Sign in and View Listings,Chrome 89.0.4389.114,,,2021-04-13 20:06:28,2021-04-13 20:06:53,24.648s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-13 20:06:29,2021-04-13 20:06:31,2.232s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-13 20:06:31,2021-04-13 20:06:39,8.265s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-13 20:06:39,2021-04-13 20:06:41,1.564s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test123@radford.edu"")",Chrome 89.0.4389.114,,,2021-04-13 20:06:41,2021-04-13 20:06:42,1.015s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 89.0.4389.114,,,2021-04-13 20:06:42,2021-04-13 20:06:42,0.517s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-13 20:06:42,2021-04-13 20:06:43,0.433s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:43,2021-04-13 20:06:44,1.205s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Listings""))",Chrome 89.0.4389.114,,,2021-04-13 20:06:44,2021-04-13 20:06:44,0.559s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/div_Search_portfolio-hover""))",Chrome 89.0.4389.114,,,2021-04-13 20:06:44,2021-04-13 20:06:49,4.773s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_View Listing/h1_House""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:49,2021-04-13 20:06:50,0.566s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_View Listing/p_A lovely apartment""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:50,2021-04-13 20:06:50,0.292s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_View Listing/h1_House""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:50,2021-04-13 20:06:50,0.371s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_View Listing/h1_7486 Lee Hwy""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:50,2021-04-13 20:06:51,0.274s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_View Listing/a_""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:51,2021-04-13 20:06:51,0.378s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_View Listing/a_""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:51,2021-04-13 20:06:51,0.270s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_View Listing/a_""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:51,2021-04-13 20:06:52,0.374s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_View Listing/a_""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:52,2021-04-13 20:06:52,0.380s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div""), STOP_ON_FAILURE)",Chrome 89.0.4389.114,,,2021-04-13 20:06:52,2021-04-13 20:06:52,0.439s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_View Listing/svg_No pets allowed in property._heart""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:06:52,2021-04-13 20:06:53,0.318s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-13 20:06:53,2021-04-13 20:06:53,0.139s,PASSED
+,,,,,,,
+Test Cases/View Listing NOT Signed in,Chrome 89.0.4389.114,,,2021-04-13 20:06:53,2021-04-13 20:07:06,13.290s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-13 20:06:53,2021-04-13 20:06:54,1.041s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-13 20:06:54,2021-04-13 20:07:04,9.487s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Listings""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:04,2021-04-13 20:07:05,1.258s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/div_Search Listings""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:05,2021-04-13 20:07:06,1.143s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-13 20:07:06,2021-04-13 20:07:06,0.115s,PASSED
+,,,,,,,
+Test Cases/Unregistered user CANNOT sign in,Chrome 89.0.4389.114,,,2021-04-13 20:07:06,2021-04-13 20:07:20,13.335s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-13 20:07:06,2021-04-13 20:07:07,0.985s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-13 20:07:07,2021-04-13 20:07:14,6.338s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:14,2021-04-13 20:07:15,1.243s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test"")",Chrome 89.0.4389.114,,,2021-04-13 20:07:15,2021-04-13 20:07:16,0.931s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""P9ET2sDE0SE="")",Chrome 89.0.4389.114,,,2021-04-13 20:07:16,2021-04-13 20:07:16,0.322s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:16,2021-04-13 20:07:17,0.294s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_The email address is badly formatted""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:07:17,2021-04-13 20:07:17,0.587s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""YsxTccsmuDoDBwXzvpNmKQ=="")",Chrome 89.0.4389.114,,,2021-04-13 20:07:17,2021-04-13 20:07:17,0.320s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:17,2021-04-13 20:07:18,0.352s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test@gmail.com"")",Chrome 89.0.4389.114,,,2021-04-13 20:07:18,2021-04-13 20:07:19,0.773s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:19,2021-04-13 20:07:19,0.286s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f""), 0)",Chrome 89.0.4389.114,,,2021-04-13 20:07:19,2021-04-13 20:07:19,0.581s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-13 20:07:19,2021-04-13 20:07:20,0.112s,PASSED
+,,,,,,,
+Test Cases/View listing Main page,Chrome 89.0.4389.114,,,2021-04-13 20:07:20,2021-04-13 20:07:34,14.734s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-13 20:07:20,2021-04-13 20:07:21,0.949s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-13 20:07:21,2021-04-13 20:07:29,7.946s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/div_5 New River Dr915""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:29,2021-04-13 20:07:33,3.969s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:33,2021-04-13 20:07:33,0.746s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:33,2021-04-13 20:07:34,0.293s,PASSED
+"click(findTestObject(""Object Repository/Page_View Listing/div""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:34,2021-04-13 20:07:34,0.536s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-13 20:07:34,2021-04-13 20:07:34,0.119s,PASSED
+,,,,,,,
+Test Cases/Searching with filter,Chrome 89.0.4389.114,,,2021-04-13 20:07:34,2021-04-13 20:07:48,13.239s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.114,,,2021-04-13 20:07:34,2021-04-13 20:07:35,0.918s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 89.0.4389.114,,,2021-04-13 20:07:35,2021-04-13 20:07:41,5.445s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Listings""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:41,2021-04-13 20:07:42,1.170s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/input_Bedrooms -_type1""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:42,2021-04-13 20:07:43,1.145s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/input_House_type2""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:43,2021-04-13 20:07:44,0.398s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/input_Bedrooms -_type1""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:44,2021-04-13 20:07:44,0.380s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/input_House_type2""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:44,2021-04-13 20:07:44,0.387s,PASSED
+"setText(findTestObject(""Object Repository/Page_Search/input_Apartment_search-txtbox""), ""Kata"")",Chrome 89.0.4389.114,,,2021-04-13 20:07:44,2021-04-13 20:07:45,0.602s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/button_Search""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:45,2021-04-13 20:07:45,0.305s,PASSED
+"click(findTestObject(""Object Repository/Page_Search/div_Search_portfolio-hover""))",Chrome 89.0.4389.114,,,2021-04-13 20:07:45,2021-04-13 20:07:47,2.194s,PASSED
+closeBrowser(),Chrome 89.0.4389.114,,,2021-04-13 20:07:47,2021-04-13 20:07:48,0.118s,PASSED

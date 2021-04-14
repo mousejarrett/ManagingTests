@@ -6,12 +6,12 @@
    <elementGuidId>4f222f66-6ea7-41c2-a706-00c192467616</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#search-txtbox</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='search-txtbox']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#search-txtbox</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

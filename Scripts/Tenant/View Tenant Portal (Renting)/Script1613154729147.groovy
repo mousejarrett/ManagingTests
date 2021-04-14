@@ -29,7 +29,9 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign-In/input__txt
 
 WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
+WebUI.click(findTestObject('Page_Home/a_Portal'))
+
+WebUI.click(findTestObject('Page_Home/a_Portal'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Tenant Portal/h4_Pay Rent'), 0)
 
