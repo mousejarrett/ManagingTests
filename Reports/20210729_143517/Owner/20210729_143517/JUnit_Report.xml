@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Owner" time="343.963" tests="17" failures="4" errors="0">
+   <testsuite name="Owner" tests="17" failures="4" errors="0" time="343.963" skipped="0" timestamp="2021-07-29 14:35:20" hostname="mousejarrett - localhost" id="Test Suites/Owner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517"/>
+         <property name="logFiles" value="/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517/execution0.log"/>
+         <property name="attachments" value="/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517/1627583902538.png, /Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517/1627583965055.png, /Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517/1627584009388.png, /Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517/1627584061829.png"/>
+         <property name="hostName" value="mousejarrett - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 92.0.4515.107"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="43d35a0a6035290010a320d06e23285e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Owner/Owner Portal" time="9.297" classname="Test Cases/Owner/Owner Portal" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:35:20 - [TEST_CASE][PASSED] - Test Cases/Owner/Owner Portal: Test Cases/Owner/Owner Portal
+
+2021-07-29 14:35:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:35:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:35:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:35:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:35:23 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:35:25 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:35:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:35:26 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:35:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:35:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:35:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Add Announcement" time="19.664" classname="Test Cases/Owner/Add Announcement" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:35:29 - [TEST_CASE][PASSED] - Test Cases/Owner/Add Announcement: Test Cases/Owner/Add Announcement
+
+2021-07-29 14:35:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:35:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:35:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:35:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:35:31 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:35:32 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:35:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:35:35 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:35:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:35:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Owner Portal/h4_Add an Announcement")): Object: 'Object Repository/Page_Owner Portal/h4_Add an Announcement' is clicked on
+
+2021-07-29 14:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Add an Announcement' is clicked on
+
+2021-07-29 14:35:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Announcement/input_Add an Announcement_title"), "Katalon Test"): Text 'Katalon Test' is set on object 'Object Repository/Page_Add Announcement/input_Add an Announcement_title'
+
+2021-07-29 14:35:39 - [MESSAGE][PASSED] - Text 'Katalon Test' is set on object 'Object Repository/Page_Add Announcement/input_Add an Announcement_title'
+
+2021-07-29 14:35:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Announcement/textarea_Add an Announcement_announcement"), "Hello this is a Katalon test"): Text 'Hello this is a Katalon test' is set on object 'Object Repository/Page_Add Announcement/textarea_Add an Announcement_announcement'
+
+2021-07-29 14:35:40 - [MESSAGE][PASSED] - Text 'Hello this is a Katalon test' is set on object 'Object Repository/Page_Add Announcement/textarea_Add an Announcement_announcement'
+
+2021-07-29 14:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Add Announcement/button_Add Announcement")): Object: 'Object Repository/Page_Add Announcement/button_Add Announcement' is clicked on
+
+2021-07-29 14:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Announcement/button_Add Announcement' is clicked on
+
+2021-07-29 14:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Announcements/button_Katalon Test")): Object: 'Object Repository/Page_Announcements/button_Katalon Test' is clicked on
+
+2021-07-29 14:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Announcements/button_Katalon Test' is clicked on
+
+2021-07-29 14:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Announcements/p_Hello this is a Katalon test")): Object: 'Object Repository/Page_Announcements/p_Hello this is a Katalon test' is clicked on
+
+2021-07-29 14:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Announcements/p_Hello this is a Katalon test' is clicked on
+
+2021-07-29 14:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Announcements/p_Hello this is a Katalon test")): Object: 'Object Repository/Page_Announcements/p_Hello this is a Katalon test' is clicked on
+
+2021-07-29 14:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Announcements/p_Hello this is a Katalon test' is clicked on
+
+2021-07-29 14:35:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Announcements/p_Hello this is a Katalon test")): Object: 'Object Repository/Page_Announcements/p_Hello this is a Katalon test' is clicked on
+
+2021-07-29 14:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Announcements/p_Hello this is a Katalon test' is clicked on
+
+2021-07-29 14:35:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:35:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Edit Announcement" time="12.471" classname="Test Cases/Owner/Edit Announcement" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:35:49 - [TEST_CASE][PASSED] - Test Cases/Owner/Edit Announcement: Test Cases/Owner/Edit Announcement
+
+2021-07-29 14:35:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:35:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:35:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:35:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:35:50 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:35:52 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:35:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:35:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:35:54 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:35:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:35:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:35:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Update an Announcement")): Object: 'Object Repository/Page_Owner Portal/h4_Update an Announcement' is clicked on
+
+2021-07-29 14:35:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Update an Announcement' is clicked on
+
+2021-07-29 14:35:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Update Announcements/topAnnouncement")): Object: 'Object Repository/Page_Update Announcements/topAnnouncement' is clicked on
+
+2021-07-29 14:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Update Announcements/topAnnouncement' is clicked on
+
+2021-07-29 14:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Update Announcement/textarea_Update an Announcement_announcement"), "test, this is an updating Katalon test"): Text 'test, this is an updating Katalon test' is set on object 'Object Repository/Page_Update Announcement/textarea_Update an Announcement_announcement'
+
+2021-07-29 14:36:00 - [MESSAGE][PASSED] - Text 'test, this is an updating Katalon test' is set on object 'Object Repository/Page_Update Announcement/textarea_Update an Announcement_announcement'
+
+2021-07-29 14:36:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Update Announcement/button_Update Announcement")): Object: 'Object Repository/Page_Update Announcement/button_Update Announcement' is clicked on
+
+2021-07-29 14:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Update Announcement/button_Update Announcement' is clicked on
+
+2021-07-29 14:36:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Announcements/button_Katalon Test")): Object: 'Object Repository/Page_Announcements/button_Katalon Test' is clicked on
+
+2021-07-29 14:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Announcements/button_Katalon Test' is clicked on
+
+2021-07-29 14:36:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:36:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Delete Announcement" time="8.949" classname="Test Cases/Owner/Delete Announcement" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:36:01 - [TEST_CASE][PASSED] - Test Cases/Owner/Delete Announcement: Test Cases/Owner/Delete Announcement
+
+2021-07-29 14:36:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:36:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:36:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:36:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:36:03 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:04 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:06 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Delete an Announcement")): Object: 'Object Repository/Page_Owner Portal/h4_Delete an Announcement' is clicked on
+
+2021-07-29 14:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Delete an Announcement' is clicked on
+
+2021-07-29 14:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_Delete Announcements/DeleteTestElement")): Object: 'Object Repository/Page_Delete Announcements/DeleteTestElement' is clicked on
+
+2021-07-29 14:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Delete Announcements/DeleteTestElement' is clicked on
+
+2021-07-29 14:36:10 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-07-29 14:36:10 - [MESSAGE][PASSED] - Alert accepted
+
+2021-07-29 14:36:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:36:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Add listing" time="22.097" classname="Test Cases/Owner/Add listing" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:36:10 - [TEST_CASE][PASSED] - Test Cases/Owner/Add listing: Test Cases/Owner/Add listing
+
+2021-07-29 14:36:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:36:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:36:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:36:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:36:12 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:14 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:16 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:36:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Email Password Sign-In Remember meForgo_94f557")): Object: 'Object Repository/Page_Sign-In/div_Email Password Sign-In Remember meForgo_94f557' is clicked on
+
+2021-07-29 14:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Email Password Sign-In Remember meForgo_94f557' is clicked on
+
+2021-07-29 14:36:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:36:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:36:19 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-29 14:36:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:36:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:36:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:36:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:36:20 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:21 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:23 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:24 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Add a Listing")): Object: 'Object Repository/Page_Owner Portal/h4_Add a Listing' is clicked on
+
+2021-07-29 14:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Add a Listing' is clicked on
+
+2021-07-29 14:36:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/input_Add a Listing_address"), "Katalon Test"): Text 'Katalon Test' is set on object 'Object Repository/Page_Add Listing/input_Add a Listing_address'
+
+2021-07-29 14:36:28 - [MESSAGE][PASSED] - Text 'Katalon Test' is set on object 'Object Repository/Page_Add Listing/input_Add a Listing_address'
+
+2021-07-29 14:36:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Add Listing/input_Add a Listing_type")): Object: 'Object Repository/Page_Add Listing/input_Add a Listing_type' is clicked on
+
+2021-07-29 14:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Listing/input_Add a Listing_type' is clicked on
+
+2021-07-29 14:36:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/input_Apartment_rent"), "500"): Text '500' is set on object 'Object Repository/Page_Add Listing/input_Apartment_rent'
+
+2021-07-29 14:36:29 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/Page_Add Listing/input_Apartment_rent'
+
+2021-07-29 14:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/input_Apartment_bedrooms"), "4"): Text '4' is set on object 'Object Repository/Page_Add Listing/input_Apartment_bedrooms'
+
+2021-07-29 14:36:29 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Page_Add Listing/input_Apartment_bedrooms'
+
+2021-07-29 14:36:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/input_Apartment_damage"), "300"): Text '300' is set on object 'Object Repository/Page_Add Listing/input_Apartment_damage'
+
+2021-07-29 14:36:30 - [MESSAGE][PASSED] - Text '300' is set on object 'Object Repository/Page_Add Listing/input_Apartment_damage'
+
+2021-07-29 14:36:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/textarea_Apartment_utilities"), "test"): Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_utilities'
+
+2021-07-29 14:36:31 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_utilities'
+
+2021-07-29 14:36:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/textarea_Apartment_parking"), "test"): Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_parking'
+
+2021-07-29 14:36:31 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_parking'
+
+2021-07-29 14:36:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/textarea_Apartment_internet"), "test"): Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_internet'
+
+2021-07-29 14:36:32 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_internet'
+
+2021-07-29 14:36:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/textarea_Apartment_description"), "This is a katalon test, disregard the listing."): Text 'This is a katalon test, disregard the listing.' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_description'
+
+2021-07-29 14:36:32 - [MESSAGE][PASSED] - Text 'This is a katalon test, disregard the listing.' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_description'
+
+2021-07-29 14:36:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:36:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Testing Delete (but not removing)" time="9.844" classname="Test Cases/Owner/Testing Delete (but not removing)" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:36:32 - [TEST_CASE][PASSED] - Test Cases/Owner/Testing Delete (but not removing): Test Cases/Owner/Testing Delete (but not removing)
+
+2021-07-29 14:36:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:36:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:36:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:36:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:36:34 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:35 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:37 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:36:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Delete a Listing")): Object: 'Object Repository/Page_Owner Portal/h4_Delete a Listing' is clicked on
+
+2021-07-29 14:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Delete a Listing' is clicked on
+
+2021-07-29 14:36:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Delete Listings/div_image container test")): Object: 'Object Repository/Page_Delete Listings/div_image container test' is clicked on
+
+2021-07-29 14:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Delete Listings/div_image container test' is clicked on
+
+2021-07-29 14:36:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:36:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/View Announcements" time="9.153" classname="Test Cases/Owner/View Announcements" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:36:42 - [TEST_CASE][PASSED] - Test Cases/Owner/View Announcements: Test Cases/Owner/View Announcements
+
+2021-07-29 14:36:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:36:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:36:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:36:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:36:44 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:45 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:47 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:36:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_View Announcements")): Object: 'Object Repository/Page_Owner Portal/h4_View Announcements' is clicked on
+
+2021-07-29 14:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_View Announcements' is clicked on
+
+2021-07-29 14:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Announcements/button_3")): Object: 'Object Repository/Page_Announcements/button_3' is clicked on
+
+2021-07-29 14:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Announcements/button_3' is clicked on
+
+2021-07-29 14:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Announcements/button_Katalon Test")): Object: 'Object Repository/Page_Announcements/button_Katalon Test' is clicked on
+
+2021-07-29 14:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Announcements/button_Katalon Test' is clicked on
+
+2021-07-29 14:36:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:36:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Activate listing" time="12.487" classname="Test Cases/Owner/Activate listing" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:36:52 - [TEST_CASE][PASSED] - Test Cases/Owner/Activate listing: Test Cases/Owner/Activate listing
+
+2021-07-29 14:36:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:36:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:36:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:36:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:36:53 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:54 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:56 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:36:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:57 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:36:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_ActivateDeactivate a Listing")): Object: 'Object Repository/Page_Owner Portal/h4_ActivateDeactivate a Listing' is clicked on
+
+2021-07-29 14:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_ActivateDeactivate a Listing' is clicked on
+
+2021-07-29 14:37:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ActivateDeactivate Listings/div_Select a Listing to ActivateDeactivate__a64143")): Object: 'Object Repository/Page_ActivateDeactivate Listings/div_Select a Listing to ActivateDeactivate__a64143' is clicked on
+
+2021-07-29 14:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ActivateDeactivate Listings/div_Select a Listing to ActivateDeactivate__a64143' is clicked on
+
+2021-07-29 14:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ActivateDeactivate Listing/label_Deactivated")): Object: 'Object Repository/Page_ActivateDeactivate Listing/label_Deactivated' is clicked on
+
+2021-07-29 14:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ActivateDeactivate Listing/label_Deactivated' is clicked on
+
+2021-07-29 14:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ActivateDeactivate Listing/label_Activated")): Object: 'Object Repository/Page_ActivateDeactivate Listing/label_Activated' is clicked on
+
+2021-07-29 14:37:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ActivateDeactivate Listing/label_Activated' is clicked on
+
+2021-07-29 14:37:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:37:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Update Listing" time="15.469" classname="Test Cases/Owner/Update Listing" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:37:04 - [TEST_CASE][PASSED] - Test Cases/Owner/Update Listing: Test Cases/Owner/Update Listing
+
+2021-07-29 14:37:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:37:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:37:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:37:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:37:05 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:37:07 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:37:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:37:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:37:09 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:37:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:37:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Update a Listing")): Object: 'Object Repository/Page_Owner Portal/h4_Update a Listing' is clicked on
+
+2021-07-29 14:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Update a Listing' is clicked on
+
+2021-07-29 14:37:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Update Listings/div_Katalon Test")): Object: 'Object Repository/Page_Update Listings/div_Katalon Test' is clicked on
+
+2021-07-29 14:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Update Listings/div_Katalon Test' is clicked on
+
+2021-07-29 14:37:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Update Listing/input_Apartment_rent"), "600"): Text '600' is set on object 'Object Repository/Page_Update Listing/input_Apartment_rent'
+
+2021-07-29 14:37:16 - [MESSAGE][PASSED] - Text '600' is set on object 'Object Repository/Page_Update Listing/input_Apartment_rent'
+
+2021-07-29 14:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Update Listing/button_Update Listing")): Object: 'Object Repository/Page_Update Listing/button_Update Listing' is clicked on
+
+2021-07-29 14:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Update Listing/button_Update Listing' is clicked on
+
+2021-07-29 14:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_View Listing/h5_600")): Object: 'Object Repository/Page_View Listing/h5_600' is clicked on
+
+2021-07-29 14:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_View Listing/h5_600' is clicked on
+
+2021-07-29 14:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_View Listing/h5_600")): Object: 'Object Repository/Page_View Listing/h5_600' is clicked on
+
+2021-07-29 14:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_View Listing/h5_600' is clicked on
+
+2021-07-29 14:37:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_View Listing/h5_600")): Object: 'Object Repository/Page_View Listing/h5_600' is clicked on
+
+2021-07-29 14:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_View Listing/h5_600' is clicked on
+
+2021-07-29 14:37:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:37:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/View Walkthrough Calendar" time="13.605" classname="Test Cases/Owner/View Walkthrough Calendar" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:37:19 - [TEST_CASE][PASSED] - Test Cases/Owner/View Walkthrough Calendar: Test Cases/Owner/View Walkthrough Calendar
+
+2021-07-29 14:37:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:37:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:37:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:37:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:37:21 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:37:26 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:37:28 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:37:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:37:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_View Walkthrough Calendar")): Object: 'Object Repository/Page_Owner Portal/h4_View Walkthrough Calendar' is clicked on
+
+2021-07-29 14:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_View Walkthrough Calendar' is clicked on
+
+2021-07-29 14:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calendar/h1_Calendar")): Object: 'Object Repository/Page_Calendar/h1_Calendar' is clicked on
+
+2021-07-29 14:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calendar/h1_Calendar' is clicked on
+
+2021-07-29 14:37:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Calendar/td_")): Object: 'Object Repository/Page_Calendar/td_' is clicked on
+
+2021-07-29 14:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Calendar/td_' is clicked on
+
+2021-07-29 14:37:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:37:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Maintenance Requests" time="50.17" classname="Test Cases/Owner/Maintenance Requests" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Owner/Maintenance Requests FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Maintenance Requests'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Maintenance Requests.run(Maintenance Requests:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' located by '//*[@id=&quot;form-container&quot;]/div/div[10]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-07-29 14:37:33 - [TEST_CASE][FAILED] - Test Cases/Owner/Maintenance Requests: Test Cases/Owner/Maintenance Requests FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Maintenance Requests'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Maintenance Requests.run(Maintenance Requests:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' located by '//*[@id="form-container"]/div/div[10]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-07-29 14:37:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:37:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:37:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:37:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:37:34 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:37:36 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:37:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:37:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:37:38 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:37:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:37:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Maintenance Requests")): Object: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' is clicked on
+
+2021-07-29 14:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' is clicked on
+
+2021-07-29 14:37:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Maintenance Requests/div_Maintenance Requests")): Object: 'Object Repository/Page_Maintenance Requests/div_Maintenance Requests' is clicked on
+
+2021-07-29 14:37:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Maintenance Requests/div_Maintenance Requests' is clicked on
+
+2021-07-29 14:37:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:37:42 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-29 14:37:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:37:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:37:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:37:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:37:43 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:37:45 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:37:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:37:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:37:46 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:37:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:37:51 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Maintenance Requests")): Unable to click on object 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Maintenance Requests'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Maintenance Requests.run(Maintenance Requests:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' located by '//*[@id="form-container"]/div/div[10]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1616262984648.run(Script1616262984648.groovy:54)
+	... 13 more
+)
+
+2021-07-29 14:38:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="form-container"]/div/div[10]/a/h4'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-29 14:38:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Maintenance Requests'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Maintenance Requests.run(Maintenance Requests:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' located by '//*[@id="form-container"]/div/div[10]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1616262984648.run(Script1616262984648.groovy:54)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517/1627583902538.png]]]]></system-out>
+         <system-err><![CDATA[2021-07-29 14:37:33 - [TEST_CASE][FAILED] - Test Cases/Owner/Maintenance Requests: Test Cases/Owner/Maintenance Requests FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Maintenance Requests'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Maintenance Requests.run(Maintenance Requests:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' located by '//*[@id="form-container"]/div/div[10]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Mark Rent as Paid" time="10.428" classname="Test Cases/Owner/Mark Rent as Paid" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:38:23 - [TEST_CASE][PASSED] - Test Cases/Owner/Mark Rent as Paid: Test Cases/Owner/Mark Rent as Paid
+
+2021-07-29 14:38:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:38:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-07-29 14:38:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:38:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:38:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:38:25 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:38:26 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:38:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:38:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:38:28 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:38:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:38:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:38:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:38:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Mark Rent as Paid")): Object: 'Object Repository/Page_Owner Portal/h4_Mark Rent as Paid' is clicked on
+
+2021-07-29 14:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Mark Rent as Paid' is clicked on
+
+2021-07-29 14:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mark Rent as Paid/input_Mark Rent as Paid_fees")): Object: 'Object Repository/Page_Mark Rent as Paid/input_Mark Rent as Paid_fees' is clicked on
+
+2021-07-29 14:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mark Rent as Paid/input_Mark Rent as Paid_fees' is clicked on
+
+2021-07-29 14:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mark Rent as Paid/input_Mark Rent as Paid_fees")): Object: 'Object Repository/Page_Mark Rent as Paid/input_Mark Rent as Paid_fees' is clicked on
+
+2021-07-29 14:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mark Rent as Paid/input_Mark Rent as Paid_fees' is clicked on
+
+2021-07-29 14:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mark Rent as Paid/button_Mark Rent as Paid")): Object: 'Object Repository/Page_Mark Rent as Paid/button_Mark Rent as Paid' is clicked on
+
+2021-07-29 14:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mark Rent as Paid/button_Mark Rent as Paid' is clicked on
+
+2021-07-29 14:38:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:38:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Rent log" time="10.134" classname="Test Cases/Owner/Rent log" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:38:34 - [TEST_CASE][PASSED] - Test Cases/Owner/Rent log: Test Cases/Owner/Rent log
+
+2021-07-29 14:38:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:38:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:38:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:38:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:38:35 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:38:36 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:38:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:38:38 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:38:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Rent Log")): Object: 'Object Repository/Page_Owner Portal/h4_Rent Log' is clicked on
+
+2021-07-29 14:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Rent Log' is clicked on
+
+2021-07-29 14:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Payment History/div_Payment History")): Object: 'Object Repository/Page_Payment History/div_Payment History' is clicked on
+
+2021-07-29 14:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payment History/div_Payment History' is clicked on
+
+2021-07-29 14:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Payment History/h2_nstoryradford.edu")): Object: 'Object Repository/Page_Payment History/h2_nstoryradford.edu' is clicked on
+
+2021-07-29 14:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payment History/h2_nstoryradford.edu' is clicked on
+
+2021-07-29 14:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Payment History/div_nstoryradford.eduThu Mar 18 2021Method _7d05a2")): Object: 'Object Repository/Page_Payment History/div_nstoryradford.eduThu Mar 18 2021Method _7d05a2' is clicked on
+
+2021-07-29 14:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payment History/div_nstoryradford.eduThu Mar 18 2021Method _7d05a2' is clicked on
+
+2021-07-29 14:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Payment History/button_Thu Mar 18 2021")): Object: 'Object Repository/Page_Payment History/button_Thu Mar 18 2021' is clicked on
+
+2021-07-29 14:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Payment History/button_Thu Mar 18 2021' is clicked on
+
+2021-07-29 14:38:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:38:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Add Fees" time="41.934" classname="Test Cases/Owner/Add Fees" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Owner/Add Fees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Add Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Fees.run(Add Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Add Fees' located by '//*[@id=&quot;form-container&quot;]/div/div[13]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-07-29 14:38:44 - [TEST_CASE][FAILED] - Test Cases/Owner/Add Fees: Test Cases/Owner/Add Fees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Add Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Fees.run(Add Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Add Fees' located by '//*[@id="form-container"]/div/div[13]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-07-29 14:38:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:38:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:38:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:38:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:38:45 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:38:48 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:38:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:38:50 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:38:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:38:53 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Add Fees")): Unable to click on object 'Object Repository/Page_Owner Portal/h4_Add Fees' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Add Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Fees.run(Add Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Add Fees' located by '//*[@id="form-container"]/div/div[13]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1616263538221.run(Script1616263538221.groovy:34)
+	... 13 more
+)
+
+2021-07-29 14:39:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="form-container"]/div/div[13]/a/h4'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-29 14:39:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Owner Portal/h4_Add Fees' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Add Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Fees.run(Add Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Add Fees' located by '//*[@id="form-container"]/div/div[13]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1616263538221.run(Script1616263538221.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517/1627583965055.png]]]]></system-out>
+         <system-err><![CDATA[2021-07-29 14:38:44 - [TEST_CASE][FAILED] - Test Cases/Owner/Add Fees: Test Cases/Owner/Add Fees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Add Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Add Fees.run(Add Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Add Fees' located by '//*[@id="form-container"]/div/div[13]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/View Fees" time="44.314" classname="Test Cases/Owner/View Fees" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Owner/View Fees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View Fees.run(View Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees' located by '//*[@id=&quot;form-container&quot;]/div/div[14]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-07-29 14:39:26 - [TEST_CASE][FAILED] - Test Cases/Owner/View Fees: Test Cases/Owner/View Fees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View Fees.run(View Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees' located by '//*[@id="form-container"]/div/div[14]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-07-29 14:39:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:39:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-07-29 14:39:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:39:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:39:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:39:27 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:39:28 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:39:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:39:30 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:39:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:39:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-29 14:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:39:38 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_ViewDelete Fees")): Unable to click on object 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View Fees.run(View Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees' located by '//*[@id="form-container"]/div/div[14]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1616263722652.run(Script1616263722652.groovy:34)
+	... 13 more
+)
+
+2021-07-29 14:40:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="form-container"]/div/div[14]/a/h4'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-29 14:40:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View Fees.run(View Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees' located by '//*[@id="form-container"]/div/div[14]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1616263722652.run(Script1616263722652.groovy:34)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517/1627584009388.png]]]]></system-out>
+         <system-err><![CDATA[2021-07-29 14:39:26 - [TEST_CASE][FAILED] - Test Cases/Owner/View Fees: Test Cases/Owner/View Fees FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at View Fees.run(View Fees:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_ViewDelete Fees' located by '//*[@id="form-container"]/div/div[14]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Change Password" time="11.587" classname="Test Cases/Owner/Change Password" status="PASSED">
+         <system-out><![CDATA[2021-07-29 14:40:10 - [TEST_CASE][PASSED] - Test Cases/Owner/Change Password: Test Cases/Owner/Change Password
+
+2021-07-29 14:40:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:40:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-07-29 14:40:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:40:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:40:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:40:11 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:40:15 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:40:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:40:17 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:40:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:40:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:40:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:40:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:40:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_4ef2c0")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_4ef2c0' is clicked on
+
+2021-07-29 14:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_4ef2c0' is clicked on
+
+2021-07-29 14:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-07-29 14:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Change Password")): Object: 'Object Repository/Page_Owner Portal/h4_Change Password' is clicked on
+
+2021-07-29 14:40:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Change Password' is clicked on
+
+2021-07-29 14:40:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Password/div_Current Password New Password New Passw_a1dd9a")): Object: 'Object Repository/Page_Change Password/div_Current Password New Password New Passw_a1dd9a' is clicked on
+
+2021-07-29 14:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Password/div_Current Password New Password New Passw_a1dd9a' is clicked on
+
+2021-07-29 14:40:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-29 14:40:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Help" time="40.838" classname="Test Cases/Owner/Help" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Owner/Help FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Help'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Help.run(Help:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Help' located by '//div[@id='form-container']/div/div[17]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-07-29 14:40:22 - [TEST_CASE][FAILED] - Test Cases/Owner/Help: Test Cases/Owner/Help FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Help'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Help.run(Help:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Help' located by '//div[@id='form-container']/div/div[17]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-07-29 14:40:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-29 14:40:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-29 14:40:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-29 14:40:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-29 14:40:23 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:40:24 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-29 14:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-29 14:40:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Email Password Sign-InForgot password")): Object: 'Object Repository/Page_Sign-In/div_Email Password Sign-InForgot password' is clicked on
+
+2021-07-29 14:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Email Password Sign-InForgot password' is clicked on
+
+2021-07-29 14:40:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:40:27 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-29 14:40:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:40:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:40:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:40:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-29 14:40:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-07-29 14:40:30 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Help")): Unable to click on object 'Object Repository/Page_Owner Portal/h4_Help' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Help'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Help.run(Help:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Help' located by '//div[@id='form-container']/div/div[17]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1618269256292.run(Script1618269256292.groovy:36)
+	... 13 more
+)
+
+2021-07-29 14:41:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='form-container']/div/div[17]/a/h4'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-29 14:41:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Owner Portal/h4_Help' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Help'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Help.run(Help:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Help' located by '//div[@id='form-container']/div/div[17]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1618269256292.run(Script1618269256292.groovy:36)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210729_143517/Owner/20210729_143517/1627584061829.png]]]]></system-out>
+         <system-err><![CDATA[2021-07-29 14:40:22 - [TEST_CASE][FAILED] - Test Cases/Owner/Help: Test Cases/Owner/Help FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Help'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Help.run(Help:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Help' located by '//div[@id='form-container']/div/div[17]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-29 14:35:20 - [TEST_SUITE][FAILED] - Owner: Test Cases/Owner/Maintenance Requests FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Maintenance Requests'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Maintenance Requests.run(Maintenance Requests:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' located by '//*[@id="form-container"]/div/div[10]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-07-29 14:35:20 - [TEST_SUITE][FAILED] - Owner: Test Cases/Owner/Maintenance Requests FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Owner Portal/h4_Maintenance Requests'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Maintenance Requests.run(Maintenance Requests:54)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1627583717593.run(TempTestSuite1627583717593.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' located by '//*[@id="form-container"]/div/div[10]/a/h4' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

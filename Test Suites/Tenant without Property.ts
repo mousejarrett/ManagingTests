@@ -12,10 +12,10 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>fabe76fa-c61e-429a-aa46-49588eabf422</testSuiteGuid>
    <testCaseLink>
-      <guid>59877015-be16-47d5-8643-488c9a070b87</guid>
+      <guid>fd33b574-2ba9-4e02-a0f5-991a49d2e049</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sign in</testCaseId>
+      <testCaseId>Test Cases/Tenant/Schedule Walkthrough</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>790600b3-ed52-4f3c-86dd-88a6ee094f56</guid>
@@ -30,9 +30,9 @@
       <testCaseId>Test Cases/Tenant/Tenant View Announcements</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fd33b574-2ba9-4e02-a0f5-991a49d2e049</guid>
+      <guid>59877015-be16-47d5-8643-488c9a070b87</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Tenant/Schedule Walkthrough</testCaseId>
+      <testCaseId>Test Cases/Sign in</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

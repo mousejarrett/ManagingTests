@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Searching Validation" time="123.264" tests="5" failures="1" errors="0">
+   <testsuite name="Searching Validation" tests="5" failures="1" errors="0" time="123.264" skipped="0" timestamp="2021-07-12 19:19:35" hostname="mousejarrett - localhost" id="Test Suites/Searching Validation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210712_191933/Searching Validation/20210712_191933"/>
+         <property name="logFiles" value="/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210712_191933/Searching Validation/20210712_191933/execution0.log"/>
+         <property name="attachments" value="/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210712_191933/Searching Validation/20210712_191933/1626132033343.png"/>
+         <property name="hostName" value="mousejarrett - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.114"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="08deec32661c60f0bb34a9fb4553e1a9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Sign in and View Listings" time="59.125" classname="Test Cases/Sign in and View Listings" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Sign in and View Listings FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Search/div_Search_portfolio-hover'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in and View Listings.run(Sign in and View Listings:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1626131973123.run(TempTestSuite1626131973123.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search/div_Search_portfolio-hover' located by '//div[@id='listings-area']/div/div/a/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-07-12 19:19:36 - [TEST_CASE][FAILED] - Test Cases/Sign in and View Listings: Test Cases/Sign in and View Listings FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Search/div_Search_portfolio-hover'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in and View Listings.run(Sign in and View Listings:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1626131973123.run(TempTestSuite1626131973123.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search/div_Search_portfolio-hover' located by '//div[@id='listings-area']/div/div/a/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-07-12 19:19:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-12 19:19:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-12 19:19:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-12 19:19:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-12 19:19:38 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:19:46 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:19:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-12 19:19:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-12 19:19:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "test123@radford.edu"): Text 'test123@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-12 19:19:53 - [MESSAGE][PASSED] - Text 'test123@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-12 19:19:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-12 19:19:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-12 19:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-12 19:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-12 19:19:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683"), 0): Object 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is present
+
+2021-07-12 19:19:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-07-12 19:19:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is present
+
+2021-07-12 19:19:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Listings")): Object: 'Object Repository/Page_Home/a_Listings' is clicked on
+
+2021-07-12 19:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Listings' is clicked on
+
+2021-07-12 19:20:01 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Search/div_Search_portfolio-hover")): Unable to click on object 'Object Repository/Page_Search/div_Search_portfolio-hover' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Search/div_Search_portfolio-hover'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in and View Listings.run(Sign in and View Listings:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1626131973123.run(TempTestSuite1626131973123.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search/div_Search_portfolio-hover' located by '//div[@id='listings-area']/div/div/a/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1613154684942.run(Script1613154684942.groovy:37)
+	... 13 more
+)
+
+2021-07-12 19:20:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='listings-area']/div/div/a/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-07-12 19:20:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Search/div_Search_portfolio-hover' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Search/div_Search_portfolio-hover'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in and View Listings.run(Sign in and View Listings:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1626131973123.run(TempTestSuite1626131973123.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search/div_Search_portfolio-hover' located by '//div[@id='listings-area']/div/div/a/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1613154684942.run(Script1613154684942.groovy:37)
+	... 13 more
+)
+[[ATTACHMENT|/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20210712_191933/Searching Validation/20210712_191933/1626132033343.png]]]]></system-out>
+         <system-err><![CDATA[2021-07-12 19:19:36 - [TEST_CASE][FAILED] - Test Cases/Sign in and View Listings: Test Cases/Sign in and View Listings FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Search/div_Search_portfolio-hover'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in and View Listings.run(Sign in and View Listings:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1626131973123.run(TempTestSuite1626131973123.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search/div_Search_portfolio-hover' located by '//div[@id='listings-area']/div/div/a/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View Listing NOT Signed in" time="9.054" classname="Test Cases/View Listing NOT Signed in" status="PASSED">
+         <system-out><![CDATA[2021-07-12 19:20:35 - [TEST_CASE][PASSED] - Test Cases/View Listing NOT Signed in: Test Cases/View Listing NOT Signed in
+
+2021-07-12 19:20:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-12 19:20:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-07-12 19:20:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-12 19:20:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-12 19:20:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-12 19:20:36 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:20:40 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:20:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Listings")): Object: 'Object Repository/Page_Home/a_Listings' is clicked on
+
+2021-07-12 19:20:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Listings' is clicked on
+
+2021-07-12 19:20:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search/div_Search Listings")): Object: 'Object Repository/Page_Search/div_Search Listings' is clicked on
+
+2021-07-12 19:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search/div_Search Listings' is clicked on
+
+2021-07-12 19:20:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-12 19:20:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Unregistered user CANNOT sign in" time="14.447" classname="Test Cases/Unregistered user CANNOT sign in" status="PASSED">
+         <system-out><![CDATA[2021-07-12 19:20:44 - [TEST_CASE][PASSED] - Test Cases/Unregistered user CANNOT sign in: Test Cases/Unregistered user CANNOT sign in
+
+2021-07-12 19:20:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-12 19:20:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-12 19:20:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-12 19:20:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-12 19:20:45 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:20:52 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:20:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-12 19:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-07-12 19:20:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "test"): Text 'test' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-12 19:20:54 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-12 19:20:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "P9ET2sDE0SE="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-12 19:20:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-12 19:20:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-12 19:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-12 19:20:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Sign-In/div_The email address is badly formatted"), 0): Object 'Object Repository/Page_Sign-In/div_The email address is badly formatted' is present
+
+2021-07-12 19:20:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-07-12 19:20:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign-In/div_The email address is badly formatted' is present
+
+2021-07-12 19:20:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "YsxTccsmuDoDBwXzvpNmKQ=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-12 19:20:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-07-12 19:20:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-12 19:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-12 19:20:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "test@gmail.com"): Text 'test@gmail.com' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-12 19:20:57 - [MESSAGE][PASSED] - Text 'test@gmail.com' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-07-12 19:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-12 19:20:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-07-12 19:20:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f"), 0): Object 'Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f' is present
+
+2021-07-12 19:20:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-07-12 19:20:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign-In/div_There is no user record corresponding t_0b1d2f' is present
+
+2021-07-12 19:20:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-12 19:20:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/View listing Main page" time="12.872" classname="Test Cases/View listing Main page" status="PASSED">
+         <system-out><![CDATA[2021-07-12 19:20:58 - [TEST_CASE][PASSED] - Test Cases/View listing Main page: Test Cases/View listing Main page
+
+2021-07-12 19:20:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-12 19:20:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-12 19:20:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-12 19:21:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-12 19:21:00 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:21:06 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/div_5 New River Dr915")): Object: 'Object Repository/Page_Home/div_5 New River Dr915' is clicked on
+
+2021-07-12 19:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/div_5 New River Dr915' is clicked on
+
+2021-07-12 19:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9")): Object: 'Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9' is clicked on
+
+2021-07-12 19:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9' is clicked on
+
+2021-07-12 19:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2")): Object: 'Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2' is clicked on
+
+2021-07-12 19:21:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2' is clicked on
+
+2021-07-12 19:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_View Listing/div")): Object: 'Object Repository/Page_View Listing/div' is clicked on
+
+2021-07-12 19:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_View Listing/div' is clicked on
+
+2021-07-12 19:21:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-12 19:21:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Searching with filter" time="26.964" classname="Test Cases/Searching with filter" status="PASSED">
+         <system-out><![CDATA[2021-07-12 19:21:11 - [TEST_CASE][PASSED] - Test Cases/Searching with filter: Test Cases/Searching with filter
+
+2021-07-12 19:21:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-12 19:21:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-12 19:21:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-12 19:21:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-12 19:21:12 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:21:20 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-07-12 19:21:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Listings")): Object: 'Object Repository/Page_Home/a_Listings' is clicked on
+
+2021-07-12 19:21:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Listings' is clicked on
+
+2021-07-12 19:21:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search/input_Bedrooms -_type1")): Object: 'Object Repository/Page_Search/input_Bedrooms -_type1' is clicked on
+
+2021-07-12 19:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search/input_Bedrooms -_type1' is clicked on
+
+2021-07-12 19:21:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search/input_House_type2")): Object: 'Object Repository/Page_Search/input_House_type2' is clicked on
+
+2021-07-12 19:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search/input_House_type2' is clicked on
+
+2021-07-12 19:21:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search/input_Bedrooms -_type1")): Object: 'Object Repository/Page_Search/input_Bedrooms -_type1' is clicked on
+
+2021-07-12 19:21:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search/input_Bedrooms -_type1' is clicked on
+
+2021-07-12 19:21:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search/input_House_type2")): Object: 'Object Repository/Page_Search/input_House_type2' is clicked on
+
+2021-07-12 19:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search/input_House_type2' is clicked on
+
+2021-07-12 19:21:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Search/input_Apartment_search-txtbox"), "Kata"): Text 'Kata' is set on object 'Object Repository/Page_Search/input_Apartment_search-txtbox'
+
+2021-07-12 19:21:34 - [MESSAGE][PASSED] - Text 'Kata' is set on object 'Object Repository/Page_Search/input_Apartment_search-txtbox'
+
+2021-07-12 19:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search/button_Search")): Object: 'Object Repository/Page_Search/button_Search' is clicked on
+
+2021-07-12 19:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search/button_Search' is clicked on
+
+2021-07-12 19:21:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Search/div_Search_portfolio-hover")): Object: 'Object Repository/Page_Search/div_Search_portfolio-hover' is clicked on
+
+2021-07-12 19:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search/div_Search_portfolio-hover' is clicked on
+
+2021-07-12 19:21:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-12 19:21:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-12 19:19:35 - [TEST_SUITE][FAILED] - Searching Validation: Test Cases/Sign in and View Listings FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Search/div_Search_portfolio-hover'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in and View Listings.run(Sign in and View Listings:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1626131973123.run(TempTestSuite1626131973123.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search/div_Search_portfolio-hover' located by '//div[@id='listings-area']/div/div/a/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-07-12 19:19:35 - [TEST_SUITE][FAILED] - Searching Validation: Test Cases/Sign in and View Listings FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Search/div_Search_portfolio-hover'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sign in and View Listings.run(Sign in and View Listings:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1626131973123.run(TempTestSuite1626131973123.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Search/div_Search_portfolio-hover' located by '//div[@id='listings-area']/div/div/a/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

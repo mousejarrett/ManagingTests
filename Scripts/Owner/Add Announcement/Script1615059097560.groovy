@@ -27,27 +27,17 @@ WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683'))
+WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
-WebUI.click(findTestObject('Page_Owner Portal/h4_Add an Announcement'))
+WebUI.click(findTestObject('Object Repository/Page_Owner Portal/h4_Add an Announcement'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Add Announcement/input_Add an Announcement_title'), 'Katalon Test')
+WebUI.setText(findTestObject('Object Repository/Page_Add Announcement/input_Add an Announcement_title'), 'Katalon test')
 
-WebUI.setText(findTestObject('Object Repository/Page_Add Announcement/textarea_Add an Announcement_announcement'), 'Hello this is a Katalon test')
+WebUI.setText(findTestObject('Object Repository/Page_Add Announcement/textarea_Add an Announcement_announcement'), 'Katalon test')
 
 WebUI.click(findTestObject('Object Repository/Page_Add Announcement/button_Add Announcement'))
-
-WebUI.click(findTestObject('Object Repository/Page_Announcements/button_Katalon Test'))
-
-WebUI.click(findTestObject('Object Repository/Page_Announcements/p_Hello this is a Katalon test'))
-
-WebUI.click(findTestObject('Object Repository/Page_Announcements/p_Hello this is a Katalon test'))
-
-WebUI.click(findTestObject('Object Repository/Page_Announcements/p_Hello this is a Katalon test'))
 
 WebUI.closeBrowser()
 
