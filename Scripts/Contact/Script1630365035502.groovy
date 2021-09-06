@@ -21,31 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://managing-made-easier.web.app/')
 
-WebUI.click(findTestObject('Object Repository/Page_Home/a_Sign-In'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 'test123@radford.edu')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), '8SQVv/p9jVScEs4/2CZsLw==')
-
-WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
-
-WebUI.click(findTestObject('Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683'))
-
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Contact'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Contact Us/input_Contact Us_userName'), 'test')
+WebUI.click(findTestObject('Object Repository/Page_Contact Us/h2_Email us'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Contact Us/input_Contact Us_userEmail'), 'test123@radford.edu')
+WebUI.click(findTestObject('Object Repository/Page_Contact Us/h4_Call or Text 123-456-7890'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Contact Us/input_Contact Us_userPhone'), '(111)111-1111')
-
-WebUI.setText(findTestObject('Object Repository/Page_Contact Us/textarea_Contact Us_userMessage'), 'Hello, this is Katalon Testing')
-
-WebUI.click(findTestObject('Object Repository/Page_Contact Us/button_Send Message'))
-
-WebUI.click(findTestObject('Object Repository/Page_Page Not Found/a_Home'))
-
-WebUI.click(findTestObject('Object Repository/Page_Page Not Found/a_Home'))
+WebUI.click(findTestObject('Object Repository/Page_Contact Us/h4_Send us a Facebook Message'))
 
 WebUI.closeBrowser()
 

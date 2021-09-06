@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Equal Housing Button</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f08cc6af-11ec-4f29-9d0a-e8de39738d52</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Contact</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

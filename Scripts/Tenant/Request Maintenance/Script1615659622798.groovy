@@ -31,17 +31,15 @@ WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
-WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
-
 WebUI.click(findTestObject('Object Repository/Page_Tenant Portal/h4_Request Maintenance'))
 
-WebUI.click(findTestObject('Object Repository/Page_Request Maintenance/input_Request Maintenance_isEmergency'))
+WebUI.click(findTestObject('Object Repository/Page_Request Maintenance/div_Emergency Call'))
 
-WebUI.click(findTestObject('Object Repository/Page_Request Maintenance/input_Emergency_isEmergency'))
+WebUI.click(findTestObject('Object Repository/Page_Request Maintenance/div_Send an SMS'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Request Maintenance/textarea_Not an Emergency_maintence'), 'Katalon testing ')
+WebUI.click(findTestObject('Object Repository/Page_Request Maintenance/h4_Send an SMS'))
 
-WebUI.click(findTestObject('Object Repository/Page_Request Maintenance/button_Submit'))
+WebUI.click(findTestObject('Object Repository/Page_Request Maintenance/h4_Emergency Call'))
 
 WebUI.closeBrowser()
 

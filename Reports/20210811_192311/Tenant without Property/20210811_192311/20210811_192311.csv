@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tenant without Property,Chrome 92.0.4515.131,,,2021-08-11 19:23:13,2021-08-11 19:23:52,39.091s,FAILED
+,,,,,,,
+Test Cases/Tenant/Schedule Walkthrough,Chrome 92.0.4515.131,,,2021-08-11 19:23:13,2021-08-11 19:23:26,13.163s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-11 19:23:13,2021-08-11 19:23:15,1.911s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:15,2021-08-11 19:23:17,1.386s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Sign-In""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:17,2021-08-11 19:23:18,1.332s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test123@radford.edu"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:18,2021-08-11 19:23:19,0.838s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 92.0.4515.131,,,2021-08-11 19:23:19,2021-08-11 19:23:19,0.575s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:19,2021-08-11 19:23:20,0.521s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Portal""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:20,2021-08-11 19:23:21,1.210s,PASSED
+"click(findTestObject(""Object Repository/Page_Tenant Portal/h4_Schedule Walkthrough""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:21,2021-08-11 19:23:23,1.972s,PASSED
+"setText(findTestObject(""Object Repository/Page_Schedule/input__quantumWizTextinputPaperinputInput e_e1b7c3""), ""test123@radford.edu"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:23,2021-08-11 19:23:24,0.603s,PASSED
+"click(findTestObject(""Object Repository/Page_Schedule/div_Choose""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:24,2021-08-11 19:23:24,0.376s,PASSED
+"setText(findTestObject(""Object Repository/Page_Schedule/input__quantumWizTextinputPaperinputInput e_e1b7c3""), ""test123@radford.edu"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:24,2021-08-11 19:23:25,0.638s,PASSED
+"click(findTestObject(""Object Repository/Page_Schedule/div_ChooseAll events are bookedChooseAll ev_bd3a84""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:25,2021-08-11 19:23:25,0.502s,PASSED
+"click(findTestObject(""Object Repository/Page_Schedule/span_Submit""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:25,2021-08-11 19:23:26,0.581s,PASSED
+"click(findTestObject(""Object Repository/Page_Schedule/a_Home""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:26,2021-08-11 19:23:26,0.324s,PASSED
+closeBrowser(),Chrome 92.0.4515.131,,,2021-08-11 19:23:26,2021-08-11 19:23:26,0.119s,PASSED
+,,,,,,,
+Test Cases/Tenant/View Tenant Portal (Not Renting),Chrome 92.0.4515.131,,,2021-08-11 19:23:26,2021-08-11 19:23:35,8.732s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-11 19:23:26,2021-08-11 19:23:27,0.931s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:27,2021-08-11 19:23:29,1.445s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Sign-In""), STOP_ON_FAILURE)",Chrome 92.0.4515.131,,,2021-08-11 19:23:29,2021-08-11 19:23:30,1.512s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test123@radford.edu"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:30,2021-08-11 19:23:31,0.857s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 92.0.4515.131,,,2021-08-11 19:23:31,2021-08-11 19:23:31,0.321s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:31,2021-08-11 19:23:32,0.297s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683""), 0)",Chrome 92.0.4515.131,,,2021-08-11 19:23:32,2021-08-11 19:23:33,1.202s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Portal""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:33,2021-08-11 19:23:33,0.381s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Tenant Portal/div_Announcements""), 0)",Chrome 92.0.4515.131,,,2021-08-11 19:23:33,2021-08-11 19:23:34,0.822s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Tenant Portal/div_Schedule Walkthrough""), 0)",Chrome 92.0.4515.131,,,2021-08-11 19:23:34,2021-08-11 19:23:34,0.271s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Tenant Portal/div_Apply to Rent""), 0)",Chrome 92.0.4515.131,,,2021-08-11 19:23:34,2021-08-11 19:23:35,0.374s,PASSED
+closeBrowser(),Chrome 92.0.4515.131,,,2021-08-11 19:23:35,2021-08-11 19:23:35,0.108s,PASSED
+,,,,,,,
+Test Cases/Tenant/Tenant View Announcements,Chrome 92.0.4515.131,,,2021-08-11 19:23:35,2021-08-11 19:23:44,8.733s,FAILED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-11 19:23:35,2021-08-11 19:23:36,0.831s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:36,2021-08-11 19:23:39,3.103s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Sign-In""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:39,2021-08-11 19:23:40,0.917s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test321@gmail.com"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:40,2021-08-11 19:23:41,0.914s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 92.0.4515.131,,,2021-08-11 19:23:41,2021-08-11 19:23:41,0.316s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:41,2021-08-11 19:23:42,0.394s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Portal""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:42,2021-08-11 19:23:44,2.072s,FAILED
+,,,,,,,
+Test Cases/Sign in,Chrome 92.0.4515.131,,,2021-08-11 19:23:44,2021-08-11 19:23:52,8.203s,PASSED
+"openBrowser("""")",Chrome 92.0.4515.131,,,2021-08-11 19:23:44,2021-08-11 19:23:45,0.944s,PASSED
+"navigateToUrl(""https://managing-made-easier.web.app/"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:45,2021-08-11 19:23:49,3.900s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/a_Sign-In""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:49,2021-08-11 19:23:49,0.526s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign-In/input__txtEmail""), ""test123@radford.edu"")",Chrome 92.0.4515.131,,,2021-08-11 19:23:49,2021-08-11 19:23:50,0.795s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Sign-In/input__txtPassword""), ""8SQVv/p9jVScEs4/2CZsLw=="")",Chrome 92.0.4515.131,,,2021-08-11 19:23:50,2021-08-11 19:23:50,0.321s,PASSED
+"click(findTestObject(""Object Repository/Page_Sign-In/button_Sign-In""))",Chrome 92.0.4515.131,,,2021-08-11 19:23:50,2021-08-11 19:23:51,0.391s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683""), 0)",Chrome 92.0.4515.131,,,2021-08-11 19:23:51,2021-08-11 19:23:52,1.079s,PASSED
+closeBrowser(),Chrome 92.0.4515.131,,,2021-08-11 19:23:52,2021-08-11 19:23:52,0.106s,PASSED
