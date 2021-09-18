@@ -54,9 +54,9 @@
       <testCaseId>Test Cases/Owner/View Fees</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eb06a863-4fe0-4d06-8dfb-f1679f6d17f5</guid>
+      <guid>f0b52a77-05a5-4986-ac5e-6ca62a8e601e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Owner/View Walkthrough Calendar</testCaseId>
+      <testCaseId>Test Cases/Owner/ContactTenantPage</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

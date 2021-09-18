@@ -12,12 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>fabe76fa-c61e-429a-aa46-49588eabf422</testSuiteGuid>
    <testCaseLink>
-      <guid>fd33b574-2ba9-4e02-a0f5-991a49d2e049</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Tenant/Schedule Walkthrough</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>790600b3-ed52-4f3c-86dd-88a6ee094f56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -40,5 +34,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Tenant/Apply</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b4827f8a-f3a4-4fed-a8ee-e1536f31d963</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Contact</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
