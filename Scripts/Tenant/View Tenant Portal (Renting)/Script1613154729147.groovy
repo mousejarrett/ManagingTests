@@ -33,8 +33,6 @@ WebUI.click(findTestObject('Page_Home/a_Portal'))
 
 WebUI.click(findTestObject('Page_Home/a_Portal'))
 
-WebUI.verifyElementPresent(findTestObject('Page_Tenant Portal/h4_Pay Rent'), 0)
-
 WebUI.verifyElementPresent(findTestObject('Page_Tenant Portal/h4_Announcements'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Page_Tenant Portal/h4_Request Maintenance'), 0)

@@ -33,7 +33,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_Sign-In/input__txtPassword
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
-WebUI.click(findTestObject('Object Repository/Page_Tenant Portal/h4_Apply to Rent'))
+WebUI.click(findTestObject('Page_Tenant Portal/h4_Apply to Rent'))
 
 WebUI.click(findTestObject('Object Repository/Page_Apply/p_Please download and fully complete the Re_86c454'))
 

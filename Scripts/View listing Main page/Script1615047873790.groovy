@@ -27,7 +27,5 @@ WebUI.click(findTestObject('Object Repository/Page_View Listing/div_The Best off
 
 WebUI.click(findTestObject('Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2'))
 
-WebUI.click(findTestObject('Object Repository/Page_View Listing/div'))
-
 WebUI.closeBrowser()
 

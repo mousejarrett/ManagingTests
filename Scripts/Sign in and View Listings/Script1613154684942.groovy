@@ -52,8 +52,6 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/a
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/a_'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_View Listing/div'), FailureHandling.STOP_ON_FAILURE)
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_View Listing/svg_No pets allowed in property._heart'), 
     0)
 

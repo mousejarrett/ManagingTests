@@ -6,12 +6,31 @@
    <elementGuidId>86258448-db0d-4234-b5c5-b74f83424038</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                            
+                                
+                                    
+                                    
+                                
+                                Apply to Rent
+                            
+                        ' or . = '
+                            
+                                
+                                    
+                                    
+                                
+                                Apply to Rent
+                            
+                        ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='form-container']/div/div[3]</value>
+         <value>//*[@id=&quot;form-container&quot;]/div/div[2]/a/h4</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

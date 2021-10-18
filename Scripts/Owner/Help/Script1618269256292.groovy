@@ -23,8 +23,6 @@ WebUI.navigateToUrl('https://managing-made-easier.web.app/')
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Sign-In'))
 
-WebUI.click(findTestObject('Object Repository/Page_Sign-In/div_Email Password Sign-InForgot password'))
-
 WebUI.setText(findTestObject('Object Repository/Page_Sign-In/input__txtEmail'), 'owner@radford.edu')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign-In/input__txtPassword'), '8SQVv/p9jVScEs4/2CZsLw==')
@@ -35,11 +33,11 @@ WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
 WebUI.click(findTestObject('Object Repository/Page_Owner Portal/h4_Help'))
 
-WebUI.click(findTestObject('Object Repository/Page_Help/h1_Help Center'))
-
 WebUI.click(findTestObject('Object Repository/Page_Help/button_View Walkthrough Calendar'))
 
 WebUI.click(findTestObject('Object Repository/Page_Help/button_Add a Listing'))
+
+WebUI.click(findTestObject('Object Repository/Page_Help/button_Update a Listing'))
 
 WebUI.closeBrowser()
 

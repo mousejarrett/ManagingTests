@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Owner1" time="116.973" tests="9" failures="0" errors="0">
+   <testsuite name="Owner1" tests="9" failures="0" errors="0" time="116.973" skipped="0" timestamp="2021-10-04 14:31:08" hostname="mousejarrett - localhost" id="Test Suites/Owner1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20211004_143105/Owner1/20211004_143106"/>
+         <property name="logFiles" value="/Users/mousejarrett/Desktop/SE 2/Managing/ManagingTests/Reports/20211004_143105/Owner1/20211004_143106/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mousejarrett - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.61"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="75443825257edd340807235b400322e1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Owner/Activate listing" time="14.269" classname="Test Cases/Owner/Activate listing" status="PASSED">
+         <system-out><![CDATA[2021-10-04 14:31:08 - [TEST_CASE][PASSED] - Test Cases/Owner/Activate listing: Test Cases/Owner/Activate listing
+
+2021-10-04 14:31:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:31:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:31:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:31:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:31:11 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:13 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:16 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-10-04 14:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-10-04 14:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:31:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:31:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_ActivateDeactivate a Listing")): Object: 'Object Repository/Page_Owner Portal/h4_ActivateDeactivate a Listing' is clicked on
+
+2021-10-04 14:31:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_ActivateDeactivate a Listing' is clicked on
+
+2021-10-04 14:31:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ActivateDeactivate Listings/div_Select a Listing to ActivateDeactivate__a64143")): Object: 'Object Repository/Page_ActivateDeactivate Listings/div_Select a Listing to ActivateDeactivate__a64143' is clicked on
+
+2021-10-04 14:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ActivateDeactivate Listings/div_Select a Listing to ActivateDeactivate__a64143' is clicked on
+
+2021-10-04 14:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ActivateDeactivate Listing/label_Deactivated")): Object: 'Object Repository/Page_ActivateDeactivate Listing/label_Deactivated' is clicked on
+
+2021-10-04 14:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ActivateDeactivate Listing/label_Deactivated' is clicked on
+
+2021-10-04 14:31:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_ActivateDeactivate Listing/label_Activated")): Object: 'Object Repository/Page_ActivateDeactivate Listing/label_Activated' is clicked on
+
+2021-10-04 14:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ActivateDeactivate Listing/label_Activated' is clicked on
+
+2021-10-04 14:31:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:31:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Add Announcement" time="10.962" classname="Test Cases/Owner/Add Announcement" status="PASSED">
+         <system-out><![CDATA[2021-10-04 14:31:23 - [TEST_CASE][PASSED] - Test Cases/Owner/Add Announcement: Test Cases/Owner/Add Announcement
+
+2021-10-04 14:31:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:31:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:31:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:31:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:31:24 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:26 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:28 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:31:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:31:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Add an Announcement")): Object: 'Object Repository/Page_Owner Portal/h4_Add an Announcement' is clicked on
+
+2021-10-04 14:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Add an Announcement' is clicked on
+
+2021-10-04 14:31:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Announcement/input_Add an Announcement_title"), "Katalon test"): Text 'Katalon test' is set on object 'Object Repository/Page_Add Announcement/input_Add an Announcement_title'
+
+2021-10-04 14:31:33 - [MESSAGE][PASSED] - Text 'Katalon test' is set on object 'Object Repository/Page_Add Announcement/input_Add an Announcement_title'
+
+2021-10-04 14:31:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Announcement/textarea_Add an Announcement_announcement"), "Katalon test"): Text 'Katalon test' is set on object 'Object Repository/Page_Add Announcement/textarea_Add an Announcement_announcement'
+
+2021-10-04 14:31:33 - [MESSAGE][PASSED] - Text 'Katalon test' is set on object 'Object Repository/Page_Add Announcement/textarea_Add an Announcement_announcement'
+
+2021-10-04 14:31:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Add Announcement/button_Add Announcement")): Object: 'Object Repository/Page_Add Announcement/button_Add Announcement' is clicked on
+
+2021-10-04 14:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Announcement/button_Add Announcement' is clicked on
+
+2021-10-04 14:31:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:31:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Add Fees" time="9.305" classname="Test Cases/Owner/Add Fees" status="PASSED">
+         <system-out><![CDATA[2021-10-04 14:31:34 - [TEST_CASE][PASSED] - Test Cases/Owner/Add Fees: Test Cases/Owner/Add Fees
+
+2021-10-04 14:31:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:31:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:31:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:31:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:31:35 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:36 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:38 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Add Fees")): Object: 'Object Repository/Page_Owner Portal/h4_Add Fees' is clicked on
+
+2021-10-04 14:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Add Fees' is clicked on
+
+2021-10-04 14:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Add Additional Fees/button_Add Fee")): Object: 'Object Repository/Page_Add Additional Fees/button_Add Fee' is clicked on
+
+2021-10-04 14:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Additional Fees/button_Add Fee' is clicked on
+
+2021-10-04 14:31:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:31:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Add listing" time="21.927" classname="Test Cases/Owner/Add listing" status="PASSED">
+         <system-out><![CDATA[2021-10-04 14:31:43 - [TEST_CASE][PASSED] - Test Cases/Owner/Add listing: Test Cases/Owner/Add listing
+
+2021-10-04 14:31:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:31:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:31:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:31:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:31:44 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:46 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:49 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "p4y+y39Ir5MSxNs1t5lTZQ=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:31:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Email Password Sign-In Remember meForgo_94f557")): Object: 'Object Repository/Page_Sign-In/div_Email Password Sign-In Remember meForgo_94f557' is clicked on
+
+2021-10-04 14:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Email Password Sign-In Remember meForgo_94f557' is clicked on
+
+2021-10-04 14:31:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:31:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:31:51 - [MESSAGE][PASSED] - Browser is closed
+
+2021-10-04 14:31:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:31:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:31:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:31:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:31:52 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:54 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:31:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:31:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:55 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:31:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:56 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Add a Listing")): Object: 'Object Repository/Page_Owner Portal/h4_Add a Listing' is clicked on
+
+2021-10-04 14:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Add a Listing' is clicked on
+
+2021-10-04 14:31:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/input_Add a Listing_address"), "Katalon Test"): Text 'Katalon Test' is set on object 'Object Repository/Page_Add Listing/input_Add a Listing_address'
+
+2021-10-04 14:32:00 - [MESSAGE][PASSED] - Text 'Katalon Test' is set on object 'Object Repository/Page_Add Listing/input_Add a Listing_address'
+
+2021-10-04 14:32:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Add Listing/input_Add a Listing_type")): Object: 'Object Repository/Page_Add Listing/input_Add a Listing_type' is clicked on
+
+2021-10-04 14:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Listing/input_Add a Listing_type' is clicked on
+
+2021-10-04 14:32:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/input_Apartment_rent"), "500"): Text '500' is set on object 'Object Repository/Page_Add Listing/input_Apartment_rent'
+
+2021-10-04 14:32:01 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/Page_Add Listing/input_Apartment_rent'
+
+2021-10-04 14:32:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/input_Apartment_bedrooms"), "4"): Text '4' is set on object 'Object Repository/Page_Add Listing/input_Apartment_bedrooms'
+
+2021-10-04 14:32:02 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Page_Add Listing/input_Apartment_bedrooms'
+
+2021-10-04 14:32:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/input_Apartment_damage"), "300"): Text '300' is set on object 'Object Repository/Page_Add Listing/input_Apartment_damage'
+
+2021-10-04 14:32:02 - [MESSAGE][PASSED] - Text '300' is set on object 'Object Repository/Page_Add Listing/input_Apartment_damage'
+
+2021-10-04 14:32:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/textarea_Apartment_utilities"), "test"): Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_utilities'
+
+2021-10-04 14:32:03 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_utilities'
+
+2021-10-04 14:32:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/textarea_Apartment_parking"), "test"): Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_parking'
+
+2021-10-04 14:32:04 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_parking'
+
+2021-10-04 14:32:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/textarea_Apartment_internet"), "test"): Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_internet'
+
+2021-10-04 14:32:04 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_internet'
+
+2021-10-04 14:32:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Add Listing/textarea_Apartment_description"), "This is a katalon test, disregard the listing."): Text 'This is a katalon test, disregard the listing.' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_description'
+
+2021-10-04 14:32:05 - [MESSAGE][PASSED] - Text 'This is a katalon test, disregard the listing.' is set on object 'Object Repository/Page_Add Listing/textarea_Apartment_description'
+
+2021-10-04 14:32:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:32:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Change Password" time="9.446" classname="Test Cases/Owner/Change Password" status="PASSED">
+         <system-out><![CDATA[2021-10-04 14:32:05 - [TEST_CASE][PASSED] - Test Cases/Owner/Change Password: Test Cases/Owner/Change Password
+
+2021-10-04 14:32:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:32:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:32:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:32:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:32:06 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:08 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:10 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_4ef2c0")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_4ef2c0' is clicked on
+
+2021-10-04 14:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_4ef2c0' is clicked on
+
+2021-10-04 14:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-10-04 14:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-10-04 14:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Change Password")): Object: 'Object Repository/Page_Owner Portal/h4_Change Password' is clicked on
+
+2021-10-04 14:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Change Password' is clicked on
+
+2021-10-04 14:32:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Change Password/div_Current Password New Password New Passw_a1dd9a")): Object: 'Object Repository/Page_Change Password/div_Current Password New Password New Passw_a1dd9a' is clicked on
+
+2021-10-04 14:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change Password/div_Current Password New Password New Passw_a1dd9a' is clicked on
+
+2021-10-04 14:32:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:32:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Delete Announcement" time="9.511" classname="Test Cases/Owner/Delete Announcement" status="PASSED">
+         <system-out><![CDATA[2021-10-04 14:32:14 - [TEST_CASE][PASSED] - Test Cases/Owner/Delete Announcement: Test Cases/Owner/Delete Announcement
+
+2021-10-04 14:32:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:32:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:32:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:32:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:32:15 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:18 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:20 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:32:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Delete an Announcement")): Object: 'Object Repository/Page_Owner Portal/h4_Delete an Announcement' is clicked on
+
+2021-10-04 14:32:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Delete an Announcement' is clicked on
+
+2021-10-04 14:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Delete Announcements/DeleteTestElement")): Object: 'Object Repository/Page_Delete Announcements/DeleteTestElement' is clicked on
+
+2021-10-04 14:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Delete Announcements/DeleteTestElement' is clicked on
+
+2021-10-04 14:32:24 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2021-10-04 14:32:24 - [MESSAGE][PASSED] - Alert accepted
+
+2021-10-04 14:32:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:32:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Edit Announcement" time="13.112" classname="Test Cases/Owner/Edit Announcement" status="PASSED">
+         <system-out><![CDATA[2021-10-04 14:32:24 - [TEST_CASE][PASSED] - Test Cases/Owner/Edit Announcement: Test Cases/Owner/Edit Announcement
+
+2021-10-04 14:32:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:32:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:32:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:32:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:32:25 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:27 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:29 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:30 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683")): Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-10-04 14:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/div_Sign-in Successful You will be redirect_b31683' is clicked on
+
+2021-10-04 14:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Update an Announcement")): Object: 'Object Repository/Page_Owner Portal/h4_Update an Announcement' is clicked on
+
+2021-10-04 14:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Update an Announcement' is clicked on
+
+2021-10-04 14:32:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_Update Announcements/topAnnouncement")): Object: 'Object Repository/Page_Update Announcements/topAnnouncement' is clicked on
+
+2021-10-04 14:32:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Update Announcements/topAnnouncement' is clicked on
+
+2021-10-04 14:32:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Update Announcement/textarea_Update an Announcement_announcement"), "test, this is an updating Katalon test"): Text 'test, this is an updating Katalon test' is set on object 'Object Repository/Page_Update Announcement/textarea_Update an Announcement_announcement'
+
+2021-10-04 14:32:35 - [MESSAGE][PASSED] - Text 'test, this is an updating Katalon test' is set on object 'Object Repository/Page_Update Announcement/textarea_Update an Announcement_announcement'
+
+2021-10-04 14:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Update Announcement/button_Update Announcement")): Object: 'Object Repository/Page_Update Announcement/button_Update Announcement' is clicked on
+
+2021-10-04 14:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Update Announcement/button_Update Announcement' is clicked on
+
+2021-10-04 14:32:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Announcements/button_Katalon Test")): Object: 'Object Repository/Page_Announcements/button_Katalon Test' is clicked on
+
+2021-10-04 14:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Announcements/button_Katalon Test' is clicked on
+
+2021-10-04 14:32:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:32:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Help" time="10.233" classname="Test Cases/Owner/Help" status="PASSED">
+         <system-out><![CDATA[2021-10-04 14:32:37 - [TEST_CASE][PASSED] - Test Cases/Owner/Help: Test Cases/Owner/Help
+
+2021-10-04 14:32:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:32:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:32:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:32:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:32:38 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:40 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:42 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:43 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Help")): Object: 'Object Repository/Page_Owner Portal/h4_Help' is clicked on
+
+2021-10-04 14:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Help' is clicked on
+
+2021-10-04 14:32:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Help/button_View Walkthrough Calendar")): Object: 'Object Repository/Page_Help/button_View Walkthrough Calendar' is clicked on
+
+2021-10-04 14:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Help/button_View Walkthrough Calendar' is clicked on
+
+2021-10-04 14:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Help/button_Add a Listing")): Object: 'Object Repository/Page_Help/button_Add a Listing' is clicked on
+
+2021-10-04 14:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Help/button_Add a Listing' is clicked on
+
+2021-10-04 14:32:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Help/button_Update a Listing")): Object: 'Object Repository/Page_Help/button_Update a Listing' is clicked on
+
+2021-10-04 14:32:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Help/button_Update a Listing' is clicked on
+
+2021-10-04 14:32:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:32:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Owner/Maintenance Requests" time="17.554" classname="Test Cases/Owner/Maintenance Requests" status="PASSED">
+         <system-out><![CDATA[2021-10-04 14:32:47 - [TEST_CASE][PASSED] - Test Cases/Owner/Maintenance Requests: Test Cases/Owner/Maintenance Requests
+
+2021-10-04 14:32:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:32:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:32:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:32:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:32:48 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:50 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:32:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:51 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:32:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:32:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Maintenance Requests")): Object: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' is clicked on
+
+2021-10-04 14:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' is clicked on
+
+2021-10-04 14:32:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Maintenance Requests/div_Maintenance Requests")): Object: 'Object Repository/Page_Maintenance Requests/div_Maintenance Requests' is clicked on
+
+2021-10-04 14:32:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Maintenance Requests/div_Maintenance Requests' is clicked on
+
+2021-10-04 14:32:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:32:56 - [MESSAGE][PASSED] - Browser is closed
+
+2021-10-04 14:32:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-10-04 14:32:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-04 14:32:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-04 14:32:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-10-04 14:32:57 - [TEST_STEP][PASSED] - navigateToUrl("https://managing-made-easier.web.app/"): Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:59 - [MESSAGE][PASSED] - Navigate to 'https://managing-made-easier.web.app/' successfully
+
+2021-10-04 14:32:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Sign-In")): Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Sign-In' is clicked on
+
+2021-10-04 14:33:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign-In/input__txtEmail"), "owner@radford.edu"): Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:33:00 - [MESSAGE][PASSED] - Text 'owner@radford.edu' is set on object 'Object Repository/Page_Sign-In/input__txtEmail'
+
+2021-10-04 14:33:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Sign-In/input__txtPassword"), "8SQVv/p9jVScEs4/2CZsLw=="): Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:33:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Sign-In/input__txtPassword'
+
+2021-10-04 14:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Sign-In/button_Sign-In")): Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign-In/button_Sign-In' is clicked on
+
+2021-10-04 14:33:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/a_Portal")): Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/a_Portal' is clicked on
+
+2021-10-04 14:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Owner Portal/h4_Maintenance Requests")): Object: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' is clicked on
+
+2021-10-04 14:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Owner Portal/h4_Maintenance Requests' is clicked on
+
+2021-10-04 14:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Maintenance Requests/div_Maintenance Requests")): Object: 'Object Repository/Page_Maintenance Requests/div_Maintenance Requests' is clicked on
+
+2021-10-04 14:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Maintenance Requests/div_Maintenance Requests' is clicked on
+
+2021-10-04 14:33:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Maintenance Requests/button_nstoryradford.edu Thu Mar 18 2021")): Object: 'Object Repository/Page_Maintenance Requests/button_nstoryradford.edu Thu Mar 18 2021' is clicked on
+
+2021-10-04 14:33:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Maintenance Requests/button_nstoryradford.edu Thu Mar 18 2021' is clicked on
+
+2021-10-04 14:33:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-10-04 14:33:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-04 14:31:08 - [TEST_SUITE][PASSED] - Owner1: Test Cases/Owner/Maintenance Requests]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

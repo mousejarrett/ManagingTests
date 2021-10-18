@@ -24,12 +24,6 @@
       <testCaseId>Test Cases/Tenant/View Tenant Portal (Renting)</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>78ebc380-3949-4bff-9d5a-bc16037d408b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Tenant/Pay Rent</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c8240fbd-8438-4055-9fd3-c095a5b3a724</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

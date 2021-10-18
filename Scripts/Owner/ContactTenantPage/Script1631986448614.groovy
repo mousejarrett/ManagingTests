@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Object Repository/Page_Sign-In/button_Sign-In'))
 
 WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
-WebUI.click(findTestObject('Object Repository/Page_Owner Portal/svg_ViewDelete Fees_svg-inline--fa fa-phone_92afb0'))
+WebUI.click(findTestObject('Page_Owner Portal/h4_View Walkthrough Calendar'))
 
 WebUI.click(findTestObject('Object Repository/Page_Contact Tenants/button_231 Allen Ave'))
 
