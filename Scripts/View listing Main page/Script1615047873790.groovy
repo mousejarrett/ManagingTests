@@ -21,11 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://managing-made-easier.web.app/')
 
-WebUI.click(findTestObject('Object Repository/Page_Home/div_5 New River Dr915'))
+WebUI.click(findTestObject('Object Repository/Page_Home/div_WelcomeJarrett Properties only include _01c0fd'))
 
-WebUI.click(findTestObject('Object Repository/Page_View Listing/div_The Best off-campus living option in Ra_9574c9'))
-
-WebUI.click(findTestObject('Object Repository/Page_View Listing/div_HouseMonthly Rent 915Date of Availabili_1384a2'))
+WebUI.click(findTestObject('Object Repository/Page_Home/div_Katalon Test Deactivate600'))
 
 WebUI.closeBrowser()
 

@@ -6,12 +6,11 @@
    <elementGuidId>4a70336d-237e-4298-8710-5fdff8363bf9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;listings-area&quot;]/div[2]/div/div/a/div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='listings-area']/div[9]/div/div/a/div</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

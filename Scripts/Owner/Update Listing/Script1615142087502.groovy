@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page_Home/a_Portal'))
 
 WebUI.click(findTestObject('Object Repository/Page_Owner Portal/h4_Update a Listing'))
 
-WebUI.click(findTestObject('Object Repository/Page_Update Listings/div_Katalon Test'))
+WebUI.click(findTestObject('Page_Update Listings/div_Katalon Test'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Update Listing/input_Apartment_rent'), '600')
 
